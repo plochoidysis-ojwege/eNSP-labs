@@ -115,6 +115,19 @@ Upon completion of this lab, you will be able to:
 ---
 ## Lab 3.3: Ethernet Link Aggregation
 
+### Objectives
+Upon completion of this lab, you will be able to:
+- Understand ethernet link aggregation
+- Configure s
+- Verify and troubleshoot ..
+  
+  ### Topology
+![Lab 3.3 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/3.3%20Lab%203.3%20Ethernet%20Link%20Aggregation/topo.ethernet%20link%20aggregation.png)
+
+### Configuration Screenshots
+- Add screenshots of ACL configuration and command outputs here.
+
+
 ---
  ## Lab 4.1: ACL Configuration
 
