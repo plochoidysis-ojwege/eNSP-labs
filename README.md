@@ -9,13 +9,14 @@ This repository contains lab exercises for Huawei eNSP. Each lab includes object
 2. [Lab 2: OSPF Routing](#lab-2-ospf-routing)
 3. [Lab 3.1: Ethernet Basics and VLAN Configuration](#lab-31-ethernet-basics-and-vlan-configuration)
 4. [Lab 3.2: Spanning Tree Configuration](#lab-32-spanning-tree-configuration)
-5. [Lab 4.1: ACL Configuration](#lab-41-acl-configuration)
-6. [Lab 4.2: Local AAA Configuration](#lab-42-local-aaa-configuration)
-7. [Lab 4.3: NAT Configuration](#lab-43-nat-configuration)
-8. [Lab 5.1: FTP Configuration](#lab-51-ftp-configuration)
-9. [Lab 5.2: DHCP Configuration](#lab-52-dhcp-configuration)
-10. [Lab 6: Creating a WLAN](#lab-6-creating-a-wlan)
-11. [Lab 7: Creating an IPv6 Network](#lab-7-creating-an-ipv6-network)
+5. [Lab 3.3: Ethernet Link Aggregation](#lab-33-ethernet-link-aggregation)
+6. [Lab 4.1: ACL Configuration](#lab-41-acl-configuration)
+7. [Lab 4.2: Local AAA Configuration](#lab-42-local-aaa-configuration)
+8. [Lab 4.3: NAT Configuration](#lab-43-nat-configuration)
+9. [Lab 5.1: FTP Configuration](#lab-51-ftp-configuration)
+10. [Lab 5.2: DHCP Configuration](#lab-52-dhcp-configuration)
+11. [Lab 6: Creating a WLAN](#lab-6-creating-a-wlan)
+12. [Lab 7: Creating an IPv6 Network](#lab-7-creating-an-ipv6-network)
 
 ---
 
@@ -112,8 +113,10 @@ Upon completion of this lab, you will be able to:
 - Include screenshots showing STP status and traceroute or ping results.
 
 ---
+## Lab 3.3: Ethernet Link Aggregation
 
-## Lab 4.1: ACL Configuration
+---
+ ## Lab 4.1: ACL Configuration
 
 ### Objectives
 Upon completion of this lab, you will be able to:
