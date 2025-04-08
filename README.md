@@ -43,7 +43,7 @@ Upon completion of this lab, you will be able to:
 :contentReference[oaicite:0]{index=0}
 
 ### Topology
-![Lab 1 Topology](path/to/lab1-topology.png)
+![Lab 1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/1.%20Lab%201%20IPv4%20Addressing%20and%20Routing/TOPO.IPV4%20ADDRESSING%20AND%20ROUTING%20CONFIG.png)
 
 ### Configuration Screenshots
 - Add screenshots of configuration outputs and command tables here.
