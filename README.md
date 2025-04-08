@@ -84,7 +84,7 @@ Upon completion of this lab, you will be able to:
 
 
 ### Topology
-![Lab 3.1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/2.%20Lab%202%20OSPF%20Routing/topo.ospf%20routing.png)
+![Lab 3.1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/3.1%20Lab%203.1%20Ethernet%20Basics%20and%20VLAN%20Configuration/topo.ethernet%20Basics%20and%20Vlan%20Config.png))
 
 ### Configuration Screenshots
 - Add screenshots of VLAN configurations and Ethernet interface settings here.
