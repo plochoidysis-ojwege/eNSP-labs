@@ -62,10 +62,8 @@ Upon completion of this lab, you will be able to:
 - Learn how to control OSPF route selection using costs
 - Understand the advertisement of default routes in OSPF
 - Learn how to configure OSPF authentication  
-:contentReference[oaicite:1]{index=1}
-
 ### Topology
-![Lab 2 Topology](path/to/lab2-topology.png)
+![Lab 2 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/2.%20Lab%202%20OSPF%20Routing/topo.ospf%20routing.png)
 
 ### Configuration Screenshots
 - Add screenshots of OSPF configuration and command outputs here.
@@ -83,10 +81,10 @@ Upon completion of this lab, you will be able to:
 - Configure basic Ethernet settings and VLANs on network devices
 - Verify VLAN membership and connectivity between devices
 
-*(Note: Objectives for this lab are inferred from the HCIA-Datacom guide’s “Ethernet Basics and VLAN Configuration” section.)*
+
 
 ### Topology
-![Lab 3.1 Topology](path/to/lab3.1-topology.png)
+![Lab 3.1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/2.%20Lab%202%20OSPF%20Routing/topo.ospf%20routing.png)
 
 ### Configuration Screenshots
 - Add screenshots of VLAN configurations and Ethernet interface settings here.
@@ -104,10 +102,8 @@ Upon completion of this lab, you will be able to:
 - Configure STP parameters on network switches
 - Verify and troubleshoot STP settings, including identifying root bridges and port roles
 
-*(Objectives are based on the lab guide’s “Spanning Tree” section.)*
-
 ### Topology
-![Lab 3.2 Topology](path/to/lab3.2-topology.png)
+![Lab 3.2 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/3.2%20Lab%203.2%20Spanning%20Tree%20Configuration/topo.%20spanning%20tree%20configuration.png)
 
 ### Configuration Screenshots
 - Add screenshots of spanning tree configurations and port roles here.
