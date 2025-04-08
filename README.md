@@ -21,14 +21,33 @@ This repository contains lab exercises for Huawei eNSP. Each lab includes object
 ---
 
 ## How to Use This README
-- Replace the placeholders with your actual lab details.
-- Use Markdown syntax for formatting:
-  - **Bold**: `**text**`
-  - *Italic*: `*text*`
-  - Lists: `- Item` or `1. Item`
-  - Images: `![Alt text](path/to/image)`
-  - Links: `[Link text](URL)`
 
+This README is designed to guide you through Huawei eNSP lab exercises. Each lab includes objectives, topology diagrams, configuration steps, and verification methods. Follow these steps to make the most of this guide:
+
+1. **Navigate the Table of Contents**:
+   - Use the Table of Contents at the top to quickly jump to the lab you want to work on.
+
+2. **Understand the Objectives**:
+   - Each lab starts with a list of objectives to help you understand what you will learn and accomplish.
+
+3. **Review the Topology**:
+   - Refer to the topology diagrams to understand the network setup for each lab.
+
+4. **Follow the Configuration Steps**:
+   - Use the configuration screenshots and commands provided to set up the lab environment.
+
+5. **Verify Your Work**:
+   - Check the verification section for each lab to ensure your configuration is correct. This includes ping tests, routing tables, and other outputs.
+
+6. **Add Your Own Notes**:
+   - Feel free to add screenshots, notes, or additional details to the README as you complete the labs.
+
+7. **Use the Resources**:
+   - Refer to the resources section at the end of the README for additional documentation and tools.
+
+---
+
+By following these steps, you can effectively complete the lab exercises and gain hands-on experience with Huawei eNSP.
 ---
 
 ## Lab 1: IPv4 Addressing and Routing
