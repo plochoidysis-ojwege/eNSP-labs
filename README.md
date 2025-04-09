@@ -154,10 +154,10 @@ By following these steps, you can effectively complete the lab exercises and gai
 
 ### Objectives
 
-● Learn how to use Dot1q termination subinterfaces to implement inter-VLAN 
+- Learn how to use Dot1q termination subinterfaces to implement inter-VLAN 
 communication
-● Learn how to use VLANIF interfaces to implement inter-VLAN communication
-● Understand the forwarding process of inter-VLAN communication
+- Learn how to use VLANIF interfaces to implement inter-VLAN communication
+- Understand the forwarding process of inter-VLAN communication
 
 ### Topology
 ![Lab 4.0 Topology](path/to/lab4.1-topology.png)
