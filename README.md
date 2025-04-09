@@ -53,7 +53,7 @@ By following these steps, you can effectively complete the lab exercises and gai
 ## Lab 1: IPv4 Addressing and Routing
 
 ### Objectives
-Upon completion of this lab, you will be able to:
+
 - Learn how to configure an IPv4 address on an interface
 - Understand the functions and meanings of loopback interfaces
 - Understand how direct routes are generated
@@ -75,7 +75,7 @@ Upon completion of this lab, you will be able to:
 ## Lab 2: OSPF Routing
 
 ### Objectives
-Upon completion of this lab, you will be able to:
+
 - Learn the basic commands of OSPF
 - Learn how to check the OSPF running status
 - Learn how to control OSPF route selection using costs
@@ -95,7 +95,7 @@ Upon completion of this lab, you will be able to:
 ## Lab 3.1: Ethernet Basics and VLAN Configuration
 
 ### Objectives
-Upon completion of this lab, you will be able to:
+
 - Understand the fundamentals of Ethernet switching
 - Configure basic Ethernet settings and VLANs on network devices
 - Verify VLAN membership and connectivity between devices
@@ -116,7 +116,7 @@ Upon completion of this lab, you will be able to:
 ## Lab 3.2: Spanning Tree Configuration
 
 ### Objectives
-Upon completion of this lab, you will be able to:
+
 - Understand the operation of the Spanning Tree Protocol (STP)
 - Configure STP parameters on network switches
 - Verify and troubleshoot STP settings, including identifying root bridges and port roles
@@ -134,7 +134,7 @@ Upon completion of this lab, you will be able to:
 ## Lab 3.3: Ethernet Link Aggregation
 
 ### Objectives
-Upon completion of this task, you will be able to:
+
 ● Learn how to manually configure link aggregation
 ● Learn how to configure link aggregation in static LACP mode
 ● Learn how to determine active links in static LACP mode
@@ -149,10 +149,11 @@ Upon completion of this task, you will be able to:
 - screenshots of ping results etc
 
 ---
+
 ## Lab 4.0:  Inter-VLAN Communication
 
 ### Objectives
-Upon completion of this task, you will be able to:
+
 ● Learn how to use Dot1q termination subinterfaces to implement inter-VLAN 
 communication
 ● Learn how to use VLANIF interfaces to implement inter-VLAN communication
@@ -174,7 +175,7 @@ communication
  ## Lab 4.1: ACL Configuration
 
 ### Objectives
-Upon completion of this lab, you will be able to:
+
 - Understand Access Control List (ACL) concepts and their role in network security
 - Configure ACL rules on Huawei devices
 - Verify ACL functionality using connectivity tests  
@@ -194,7 +195,7 @@ Upon completion of this lab, you will be able to:
 ## Lab 4.2: Local AAA Configuration
 
 ### Objectives
-Upon completion of this lab, you will be able to:
+
 - Understand the fundamentals of AAA (Authentication, Authorization, and Accounting)
 - Configure local AAA settings on Huawei devices
 - Verify AAA user authentication and test network access  
@@ -213,7 +214,7 @@ Upon completion of this lab, you will be able to:
 ## Lab 4.3: NAT Configuration
 
 ### Objectives
-Upon completion of this lab, you will be able to:
+
 - Understand the purpose and types of Network Address Translation (NAT)
 - Configure NAT settings on Huawei devices
 - Verify NAT translations and troubleshoot related issues  
@@ -233,7 +234,7 @@ Upon completion of this lab, you will be able to:
 ## Lab 5.1: FTP Configuration
 
 ### Objectives
-Upon completion of this lab, you will be able to:
+
 - Understand the fundamentals of File Transfer Protocol (FTP)
 - Configure FTP servers and clients on Huawei devices
 - Verify FTP connectivity and perform file transfers  
@@ -253,7 +254,7 @@ Upon completion of this lab, you will be able to:
 ## Lab 5.2: DHCP Configuration
 
 ### Objectives
-Upon completion of this lab, you will be able to:
+
 - Understand the operation of Dynamic Host Configuration Protocol (DHCP)
 - Configure DHCP services on Huawei devices
 - Verify DHCP lease assignments and test client connectivity  
@@ -273,7 +274,7 @@ Upon completion of this lab, you will be able to:
 ## Lab 6: Creating a WLAN
 
 ### Objectives
-Upon completion of this lab, you will be able to:
+
 - Understand the principles of WLAN configuration
 - Configure WLAN parameters and settings on Huawei devices
 - Verify wireless connectivity and troubleshoot WLAN issues  
@@ -293,7 +294,7 @@ Upon completion of this lab, you will be able to:
 ## Lab 7: Creating an IPv6 Network
 
 ### Objectives
-Upon completion of this lab, you will be able to:
+
 - Understand IPv6 addressing and routing concepts
 - Configure IPv6 addresses on network interfaces
 - Verify IPv6 connectivity and troubleshoot IPv6-related issues  
