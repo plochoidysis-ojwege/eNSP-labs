@@ -10,13 +10,14 @@ This repository contains basic configurations on Huawei eNSP. Each configuration
 3. [Lab 3.1: Ethernet Basics and VLAN Configuration](#lab-31-ethernet-basics-and-vlan-configuration)
 4. [Lab 3.2: Spanning Tree Configuration](#lab-32-spanning-tree-configuration)
 5. [Lab 3.3: Ethernet Link Aggregation](#lab-33-ethernet-link-aggregation)
-6. [Lab 4.1: ACL Configuration](#lab-41-acl-configuration)
-7. [Lab 4.2: Local AAA Configuration](#lab-42-local-aaa-configuration)
-8. [Lab 4.3: NAT Configuration](#lab-43-nat-configuration)
-9. [Lab 5.1: FTP Configuration](#lab-51-ftp-configuration)
-10. [Lab 5.2: DHCP Configuration](#lab-52-dhcp-configuration)
-11. [Lab 6: Creating a WLAN](#lab-6-creating-a-wlan)
-12. [Lab 7: Creating an IPv6 Network](#lab-7-creating-an-ipv6-network)
+6. [Lab 4.0: Inter-VLAN Communication](#lab-40-inter-vlan-communication)
+7. [Lab 4.1: ACL Configuration](#lab-41-acl-configuration)
+8. [Lab 4.2: Local AAA Configuration](#lab-42-local-aaa-configuration)
+9. [Lab 4.3: NAT Configuration](#lab-43-nat-configuration)
+10. [Lab 5.1: FTP Configuration](#lab-51-ftp-configuration)
+11. [Lab 5.2: DHCP Configuration](#lab-52-dhcp-configuration)
+12. [Lab 6: Creating a WLAN](#lab-6-creating-a-wlan)
+13. [Lab 7: Creating an IPv6 Network](#lab-7-creating-an-ipv6-network)
 
 ---
 
@@ -133,10 +134,11 @@ Upon completion of this lab, you will be able to:
 ## Lab 3.3: Ethernet Link Aggregation
 
 ### Objectives
-Upon completion of this lab, you will be able to:
-- Understand ethernet link aggregation
-- Configure s
-- Verify and troubleshoot ..
+Upon completion of this task, you will be able to:
+● Learn how to manually configure link aggregation
+● Learn how to configure link aggregation in static LACP mode
+● Learn how to determine active links in static LACP mode
+● Learn how to configure some static LACP features
   
   ### Topology
 ![Lab 3.3 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/3.3%20Lab%203.3%20Ethernet%20Link%20Aggregation/topo.ethernet%20link%20aggregation.png)
@@ -145,6 +147,28 @@ Upon completion of this lab, you will be able to:
 -  screenshots of configuration and command outputs here.
 ### Verification
 - screenshots of ping results etc
+
+---
+## Lab 4.0:  Inter-VLAN Communication
+
+### Objectives
+Upon completion of this task, you will be able to:
+● Learn how to use Dot1q termination subinterfaces to implement inter-VLAN 
+communication
+● Learn how to use VLANIF interfaces to implement inter-VLAN communication
+● Understand the forwarding process of inter-VLAN communication
+
+### Topology
+![Lab 4.0 Topology](path/to/lab4.1-topology.png)
+
+
+### Configuration Screenshots
+- Add screenshots of ACL configuration and command outputs here.
+
+### Verification
+- Include screenshots showing ACL rule listings and ping or traceroute test results.
+
+
 
 ---
  ## Lab 4.1: ACL Configuration
