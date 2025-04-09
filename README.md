@@ -135,10 +135,10 @@ By following these steps, you can effectively complete the lab exercises and gai
 
 ### Objectives
 
-● Learn how to manually configure link aggregation
-● Learn how to configure link aggregation in static LACP mode
-● Learn how to determine active links in static LACP mode
-● Learn how to configure some static LACP features
+- Learn how to manually configure link aggregation
+- Learn how to configure link aggregation in static LACP mode
+- Learn how to determine active links in static LACP mode
+- Learn how to configure some static LACP features
   
   ### Topology
 ![Lab 3.3 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/3.3%20Lab%203.3%20Ethernet%20Link%20Aggregation/topo.ethernet%20link%20aggregation.png)
