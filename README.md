@@ -159,7 +159,7 @@ communication
 - Understand the forwarding process of inter-VLAN communication
 
 ### Topology
-![Lab 4.0 Topology](path/to/lab4.1-topology.png)
+![Lab 4.0 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/4.0%20Lab%204%20Inter-VLAN%20Communication/topo.Inter-VLAN-Communication.png)
 
 
 ### Configuration Screenshots
