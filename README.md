@@ -60,16 +60,15 @@ Upon completion of this lab, you will be able to:
 - Learn how to configure static routes and understand the conditions for the static routes to take effect
 - Learn how to test the connectivity of the network layer by using the ping tool
 - Learn how to configure static routes and understand their application scenarios  
-:contentReference[oaicite:0]{index=0}
 
 ### Topology
 ![Lab 1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/1.%20Lab%201%20IPv4%20Addressing%20and%20Routing/TOPO.IPV4%20ADDRESSING%20AND%20ROUTING%20CONFIG.png)
 
 ### Configuration Screenshots
-- Add screenshots of configuration outputs and command tables here.
+- screenshots of configuration outputs and command tables are to be added here
 
 ### Verification
-- Include screenshots of ping results, routing tables, and any relevant packet captures.
+- screenshots of ping results, routing tables, and any relevant packet captures.
 
 ---
 
@@ -144,8 +143,9 @@ Upon completion of this lab, you will be able to:
 ![Lab 3.3 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/3.3%20Lab%203.3%20Ethernet%20Link%20Aggregation/topo.ethernet%20link%20aggregation.png)
 
 ### Configuration Screenshots
-- Add screenshots of ACL configuration and command outputs here.
-
+-  screenshots of configuration and command outputs here.
+### Verification
+- screenshots of ping results etc
 
 ---
  ## Lab 4.1: ACL Configuration
@@ -155,7 +155,7 @@ Upon completion of this lab, you will be able to:
 - Understand Access Control List (ACL) concepts and their role in network security
 - Configure ACL rules on Huawei devices
 - Verify ACL functionality using connectivity tests  
-:contentReference[oaicite:2]{index=2}
+
 
 ### Topology
 ![Lab 4.1 Topology](path/to/lab4.1-topology.png)
@@ -175,7 +175,6 @@ Upon completion of this lab, you will be able to:
 - Understand the fundamentals of AAA (Authentication, Authorization, and Accounting)
 - Configure local AAA settings on Huawei devices
 - Verify AAA user authentication and test network access  
-:contentReference[oaicite:3]{index=3}
 
 ### Topology
 ![Lab 4.2 Topology](path/to/lab4.2-topology.png)
@@ -303,4 +302,4 @@ Upon completion of this lab, you will be able to:
 
 ---
 
-Feel free to update the placeholders (e.g., image paths, configuration screenshots) with your actual content. The objectives have been extracted from the HCIA-Datacom Lab Guide (see :contentReference[oaicite:9]{index=9} for Lab 1 and :contentReference[oaicite:10]{index=10} for Lab 2) and similar sections for the other labs.
+- Any contribution is welcome.
