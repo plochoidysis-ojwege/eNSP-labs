@@ -216,7 +216,7 @@ communication
 - Understand the purpose and types of Network Address Translation (NAT)
 - Configure NAT settings on Huawei devices
 - Verify NAT translations and troubleshoot related issues  
-:contentReference[oaicite:4]{index=4}
+
 
 ### Topology
 ![Lab 4.3 Topology](path/to/lab4.3-topology.png)
@@ -236,7 +236,7 @@ communication
 - Understand the fundamentals of File Transfer Protocol (FTP)
 - Configure FTP servers and clients on Huawei devices
 - Verify FTP connectivity and perform file transfers  
-:contentReference[oaicite:5]{index=5}
+
 
 ### Topology
 ![Lab 5.1 Topology](path/to/lab5.1-topology.png)
@@ -256,7 +256,7 @@ communication
 - Understand the operation of Dynamic Host Configuration Protocol (DHCP)
 - Configure DHCP services on Huawei devices
 - Verify DHCP lease assignments and test client connectivity  
-:contentReference[oaicite:6]{index=6}
+
 
 ### Topology
 ![Lab 5.2 Topology](path/to/lab5.2-topology.png)
@@ -276,7 +276,7 @@ communication
 - Understand the principles of WLAN configuration
 - Configure WLAN parameters and settings on Huawei devices
 - Verify wireless connectivity and troubleshoot WLAN issues  
-:contentReference[oaicite:7]{index=7}
+
 
 ### Topology
 ![Lab 6 Topology](path/to/lab6-topology.png)
@@ -296,7 +296,6 @@ communication
 - Understand IPv6 addressing and routing concepts
 - Configure IPv6 addresses on network interfaces
 - Verify IPv6 connectivity and troubleshoot IPv6-related issues  
-:contentReference[oaicite:8]{index=8}
 
 ### Topology
 ![Lab 7 Topology](path/to/lab7-topology.png)
