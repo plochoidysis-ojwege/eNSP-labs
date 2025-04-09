@@ -1,6 +1,6 @@
 # Huawei eNSP Lab Exercises
 
-This repository contains basic configurations on Huawei eNSP. Each configuration includes objectives, topology images, screenshots of configurations, and verification steps.
+This repository contains basic configurations on Huawei eNSP. Each configuration includes objectives, topology images, screenshots of configurations, and verification steps.I am currently learning basic networking concepts and updating each complete lab as part of my learning journey.My goal is to do one lab a day to build my understanding and practical skills
 
 ---
 
@@ -22,7 +22,6 @@ This repository contains basic configurations on Huawei eNSP. Each configuration
 
 ## How to Use This README
 
-This README is designed to guide you through Huawei eNSP lab exercises. Each lab includes objectives, topology diagrams, configuration steps, and verification methods. Follow these steps to make the most of this guide:
 
 1. **Navigate the Table of Contents**:
    - Use the Table of Contents at the top to quickly jump to the lab you want to work on.
