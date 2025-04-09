@@ -109,7 +109,7 @@ By following these steps, you can effectively complete the lab exercises and gai
 - Add screenshots of VLAN configurations and Ethernet interface settings here.
 
 ### Verification
-- Include screenshots of VLAN membership, ping tests, and any Wireshark captures.
+-  screenshots of VLAN membership, ping tests, and any Wireshark captures.
 
 ---
 
@@ -149,7 +149,7 @@ By following these steps, you can effectively complete the lab exercises and gai
 - screenshots of ping results etc
 
 ---
-## Lab 4:  Inter-VLAN Communication
+## Lab 4.0:  Inter-VLAN Communication
 
 ### Objectives
 
@@ -166,8 +166,7 @@ communication
 - Add screenshots of ACL configuration and command outputs here.
 
 ### Verification
-- Include screenshots showing ACL rule listings and ping or traceroute test results.
-
+- Include screenshots 
 
 
 ---
