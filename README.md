@@ -308,11 +308,7 @@ communication
 
 ---
 
-## Tips for Writing a Good README
-1. **Keep it organized:** Use clear headings and subheadings to structure your content.
-2. **Use visuals:** Include images and screenshots to make the instructions easier to follow.
-3. **Be concise:** Write clear and concise descriptions for each section.
-4. **Use Markdown formatting:** Leverage Markdown syntax to make your README visually appealing.
+## Tips
 
 ---
 
