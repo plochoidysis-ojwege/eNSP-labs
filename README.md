@@ -323,4 +323,4 @@ communication
 
 ---
 
-- Any contribution is welcome.
+- Any contributions and suggestions are welcome.
