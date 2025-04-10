@@ -21,35 +21,19 @@ This repository contains my hands-on lab exercises for learning Huawei networkin
 
 ---
 
-## How to Use This README
+## Navigating the Repository
 
-
-1. **Navigate the Table of Contents**:
-   - Use the Table of Contents at the top to quickly jump to the lab you want to work on.
-
-2. **Understand the Objectives**:
-   - Each lab starts with a list of objectives to help you understand what you will learn and accomplish.
-
-3. **Review the Topology**:
-   - Refer to the topology diagrams to understand the network setup for each lab.
-
-4. **Follow the Configuration Steps**:
-   - Use the configuration screenshots and commands provided to set up the lab environment.
-
-5. **Verify Your Work**:
-   - Check the verification section for each lab to ensure your configuration is correct. This includes ping tests, routing tables, and other outputs.
-
-6. **Add Your Own Notes**:
-   - Feel free to add screenshots, notes, or additional details to the README as you complete the labs.
-
-7. **Use the Resources**:
-   - Refer to the resources section at the end of the README for additional documentation and tools.
+- **Table of Contents**: Click any lab in the list above to jump right to that section.
+- **Objectives**: Each lab starts with a brief list of what I aimed to learn.
+- **Topology Diagrams**: Get a quick visual overview of the network setup for each exercise.
+- **Configuration Steps**: Follow the commands and (soon) add screenshots that show how each lab is set up.
+- **Verification**: Check how I confirmed the lab worked—through tests like ping results and routing tables.
+- **Personal Notes**: I've added my own notes and observations as I progressed.
+- **Resources**: Find extra documentation and guides in the Resources section at the end.
 
 ---
 
-By following these steps, you can effectively complete the lab exercises and gain hands-on experience with Huawei eNSP.
----
-
+This layout reflects my ongoing journey with Huawei eNSP. Enjoy exploring and learning along with me!
 ## Lab 1: IPv4 Addressing and Routing
 
 ### Objectives
@@ -65,10 +49,10 @@ By following these steps, you can effectively complete the lab exercises and gai
 ![Lab 1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/1.%20Lab%201%20IPv4%20Addressing%20and%20Routing/TOPO.IPV4%20ADDRESSING%20AND%20ROUTING%20CONFIG.png)
 
 ### Configuration Screenshots
-- screenshots of configuration outputs and command tables are to be added here
+- screenshots of configuration outputs and command tables COMING SOON
 
 ### Verification
-- screenshots of ping results, routing tables, and any relevant packet captures.
+- screenshots of ping results, routing tables, and any relevant packet captures.COMING SOON.
 
 ---
 
@@ -85,7 +69,7 @@ By following these steps, you can effectively complete the lab exercises and gai
 ![Lab 2 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/2.%20Lab%202%20OSPF%20Routing/topo.ospf%20routing.png)
 
 ### Configuration Screenshots
-- Add screenshots of OSPF configuration and command outputs here.
+-  screenshots of OSPF configuration and command outputs COMING SOON.
 
 ### Verification
 - Include screenshots showing OSPF neighbor relationships, routing tables, and traceroute outputs.
@@ -106,7 +90,7 @@ By following these steps, you can effectively complete the lab exercises and gai
 ![Lab 3.1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/3.1%20Lab%203.1%20Ethernet%20Basics%20and%20VLAN%20Configuration/topo.ethernet%20Basics%20and%20Vlan%20Config.png)
 
 ### Configuration Screenshots
-- Add screenshots of VLAN configurations and Ethernet interface settings here.
+- screenshots of VLAN configurations and Ethernet interface settings COMING SOON
 
 ### Verification
 -  screenshots of VLAN membership, ping tests, and any Wireshark captures.
@@ -125,7 +109,7 @@ By following these steps, you can effectively complete the lab exercises and gai
 ![Lab 3.2 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/3.2%20Lab%203.2%20Spanning%20Tree%20Configuration/topo.%20spanning%20tree%20configuration.png)
 
 ### Configuration Screenshots
-- Add screenshots of spanning tree configurations and port roles here.
+-  screenshots of spanning tree configurations and port roles COMING SOON.
 
 ### Verification
 - Include screenshots showing STP status and traceroute or ping results.
@@ -146,7 +130,7 @@ By following these steps, you can effectively complete the lab exercises and gai
 ### Configuration Screenshots
 -  screenshots of configuration and command outputs here.
 ### Verification
-- screenshots of ping results etc
+- screenshots of ping results etc. COMING SOON
 
 ---
 ## Lab 4.0: Inter-VLAN Communication
@@ -166,7 +150,7 @@ communication
 - Add screenshots of ACL configuration and command outputs here.
 
 ### Verification
-- Include screenshots 
+-  screenshots COMING SOON
 
 
 ---
@@ -183,10 +167,10 @@ communication
 ![Lab 4.1 Topology](path/to/lab4.1-topology.png)
 
 ### Configuration Screenshots
-- Add screenshots of ACL configuration and command outputs here.
+- COMING SOON screenshots of ACL configuration and command outputs here.
 
 ### Verification
-- Include screenshots showing ACL rule listings and ping or traceroute test results.
+- COMING SOON screenshots showing ACL rule listings and ping or traceroute test results.
 
 ---
 
@@ -202,10 +186,10 @@ communication
 ![Lab 4.2 Topology](path/to/lab4.2-topology.png)
 
 ### Configuration Screenshots
-- Add screenshots of AAA configuration details and user authentication setups.
+- COMING SOON screenshots of AAA configuration details and user authentication setups.
 
 ### Verification
-- Include screenshots showing successful AAA authentication tests and relevant command outputs.
+-  screenshots showing successful AAA authentication tests and relevant command outputs.COMING SOON
 
 ---
 
@@ -225,7 +209,7 @@ communication
 - Add screenshots of NAT configuration commands and NAT translation outputs.
 
 ### Verification
-- Include screenshots showing NAT translation tables, ping tests, and any packet captures.
+- Include screenshots showing NAT translation tables, ping tests, and any packet captures.COMING SOON.
 
 ---
 
@@ -242,10 +226,10 @@ communication
 ![Lab 5.1 Topology](path/to/lab5.1-topology.png)
 
 ### Configuration Screenshots
-- Add screenshots of FTP configuration and command outputs here.
+-  screenshots of FTP configuration and command outputs here.COMING SOON
 
 ### Verification
-- Include screenshots showing successful FTP connections and file transfer logs.
+- Coming soon screenshots showing successful FTP connections and file transfer logs.
 
 ---
 
@@ -262,10 +246,10 @@ communication
 ![Lab 5.2 Topology](path/to/lab5.2-topology.png)
 
 ### Configuration Screenshots
-- Add screenshots of DHCP server configuration and DHCP lease outputs.
+- screenshots of DHCP server configuration and DHCP lease outputs. Soon.
 
 ### Verification
-- Include screenshots showing DHCP bindings, ping tests, and routing verification.
+- Include screenshots showing DHCP bindings, ping tests, and routing verification.coming soon
 
 ---
 
@@ -282,10 +266,10 @@ communication
 ![Lab 6 Topology](path/to/lab6-topology.png)
 
 ### Configuration Screenshots
-- Add screenshots of WLAN configuration interfaces and settings.
+- screenshots of WLAN configuration interfaces and settings,coming soon
 
 ### Verification
-- Include screenshots showing WLAN connectivity tests and wireless signal verification.
+- Include screenshots showing WLAN connectivity tests and wireless signal verification.COMING SOON
 
 ---
 
@@ -301,21 +285,26 @@ communication
 ![Lab 7 Topology](path/to/lab7-topology.png)
 
 ### Configuration Screenshots
-- Add screenshots of IPv6 configuration commands and outputs here.
+- Add screenshots of IPv6 configuration commands and outputs here.Coming soon
 
 ### Verification
-- Include screenshots showing IPv6 neighbor discovery, ping results, and any Wireshark captures.
+-  screenshots showing IPv6 neighbor discovery, ping results, and any Wireshark captures.Coming soon.
 
 ---
 
 ## Tips
 
+- Always save your configurations to avoid losing progress.
+- Use the `display` command to verify configurations on Huawei devices.
+- Refer to the official Huawei eNSP documentation for troubleshooting.
+
 ---
 
 ## Resources
-- [Markdown Guide](https://www.markdownguide.org/)  
-- [Wireshark Documentation](https://www.wireshark.org/docs/)  
-- [Huawei eNSP Documentation](https://support.huawei.com/enterprise/en/ensp)
+- [Infosyte: How to Install Huawei eNSP Network Simulator](https://infosyte.com/how-to-install-huawei-ensp-network-simulator/)
+- [Wireshark Documentation](https://www.wireshark.org/docs/) 
+ - [Huawei Talent Learning Portal](https://e.huawei.com/en/talent/learning/#/home) - Explore official Huawei learning and training resources.
+-  [Huawei eNSP Pro Full Guide](https://forum.huawei.com/enterprise/intl/en/thread/Huawei-eNSP-Pro-Full-Guide-Part1/856124796711411712?blogId=856124796711411712) - A detailed guide from the Huawei forum.
 
 ---
 
