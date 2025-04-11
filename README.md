@@ -38,12 +38,12 @@ This layout reflects my ongoing journey with Huawei eNSP. Enjoy exploring and le
 
 ### Objectives
 
-- Learn how to configure an IPv4 address on an interface
-- Understand the functions and meanings of loopback interfaces
-- Understand how direct routes are generated
-- Learn how to configure static routes and understand the conditions for the static routes to take effect
-- Learn how to test the connectivity of the network layer by using the ping tool
-- Learn how to configure static routes and understand their application scenarios  
+- Assigning IPv4 addresses to network interfaces.
+-  Examine how loopback interfaces function and their role in network testing and management.
+- Investigate how direct routing paths are generated and understand the underlying principles.
+-  Learn to set up static routes, focusing on the necessary conditions for these routes to become effective.
+-  Using tools like ping and tracert to assess the performance and connectivity of the network layer.
+- Comparing various static routing scenarios to determine when and why each approach is appropriate. 
 
 ### Topology
 ![Lab 1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/1.%20Lab%201%20IPv4%20Addressing%20and%20Routing/TOPO.IPV4%20ADDRESSING%20AND%20ROUTING%20CONFIG.png)
@@ -60,11 +60,12 @@ This layout reflects my ongoing journey with Huawei eNSP. Enjoy exploring and le
 
 ### Objectives
 
-- Learn the basic commands of OSPF
-- Learn how to check the OSPF running status
-- Learn how to control OSPF route selection using costs
-- Understand the advertisement of default routes in OSPF
-- Learn how to configure OSPF authentication  
+- Using OSPF commands to manage and troubleshoot routing configurations.
+- Inspecting and verifying the operational status of OSPF .
+- Adjusting route costs to manipulate and optimize OSPF route decisions.
+- Understanding OSPF’s advertisement of default routes and their impact on network topology.
+- Implementing and testing OSPF authentication mechanisms to safeguard routing exchanges from unauthorized access.
+  
 ### Topology
 ![Lab 2 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/2.%20Lab%202%20OSPF%20Routing/topo.ospf%20routing.png)
 
@@ -80,9 +81,9 @@ This layout reflects my ongoing journey with Huawei eNSP. Enjoy exploring and le
 
 ### Objectives
 
-- Understand the fundamentals of Ethernet switching
-- Configure basic Ethernet settings and VLANs on network devices
-- Verify VLAN membership and connectivity between devices
+- Developing a clear understanding of how Ethernet switching operates at the fundamental level.
+- Configuring basic ethernet settings and setting up VLANs on network devices to segment traffic effectively.
+- Validating VLAN assignments and inter device connectivity for proper functioning of the configurations.
 
 
 
@@ -101,10 +102,9 @@ This layout reflects my ongoing journey with Huawei eNSP. Enjoy exploring and le
 
 ### Objectives
 
-- Understand the operation of the Spanning Tree Protocol (STP)
-- Configure STP parameters on network switches
-- Verify and troubleshoot STP settings, including identifying root bridges and port roles
-
+- Understanding of how the Spanning Tree Protocol prevents network loops and ensures redundancy.
+- Configuring key STP parameters on network switches to optimize network performance.
+- Verifying STP operation by identifying root bridges and port roles, and troubleshooting any anomalies in the S.T.P.
 ### Topology
 ![Lab 3.2 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/3.2%20Lab%203.2%20Spanning%20Tree%20Configuration/topo.%20spanning%20tree%20configuration.png)
 
@@ -119,10 +119,10 @@ This layout reflects my ongoing journey with Huawei eNSP. Enjoy exploring and le
 
 ### Objectives
 
-- Learn how to manually configure link aggregation
-- Learn how to configure link aggregation in static LACP mode
-- Learn how to determine active links in static LACP mode
-- Learn how to configure some static LACP features
+- Manually configuring link aggregation to understand its foundational principles.
+- Configuring link aggregation using static LACP mode.
+- verifying which aggregated links are active during static LACP operations.
+- Exploring and applying additional static LACP features to enhance network performance and redundancy.
   
   ### Topology
 ![Lab 3.3 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/3.3%20Lab%203.3%20Ethernet%20Link%20Aggregation/topo.ethernet%20link%20aggregation.png)
@@ -137,10 +137,10 @@ This layout reflects my ongoing journey with Huawei eNSP. Enjoy exploring and le
 
 ### Objectives
 
-- Learn how to use Dot1q termination subinterfaces to implement inter-VLAN 
+- Using Dot1q termination subinterfaces to implement inter-VLAN 
 communication
-- Learn how to use VLANIF interfaces to implement inter-VLAN communication
-- Understand the forwarding process of inter-VLAN communication
+- Using VLANIF interfaces to implement inter-VLAN communication
+-Examining the process by which network traffic is routed between VLANs.
 
 ### Topology
 ![Lab 4.0 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/4.0%20Lab%204%20Inter-VLAN%20Communication/topo.Inter-VLAN-Communication.png)
@@ -158,9 +158,9 @@ communication
 
 ### Objectives
 
-- Understand Access Control List (ACL) concepts and their role in network security
-- Configure ACL rules on Huawei devices
-- Verify ACL functionality using connectivity tests  
+- Mastering ACL Basics for Network Security.
+- Configuring ACL rules on Huawei devices.
+- Verifying ACL functionality using connectivity tests . 
 
 
 ### Topology
@@ -197,9 +197,9 @@ communication
 
 ### Objectives
 
-- Understand the purpose and types of Network Address Translation (NAT)
-- Configure NAT settings on Huawei devices
-- Verify NAT translations and troubleshoot related issues  
+- Understanding NAT config., its purpose and types.
+- Setting up NAT on Huawei devices.
+- Validating and Troubleshooting NAT: Verifying translations and resolve issues.
 
 
 ### Topology
@@ -217,10 +217,9 @@ communication
 
 ### Objectives
 
-- Understand the fundamentals of File Transfer Protocol (FTP)
-- Configure FTP servers and clients on Huawei devices
-- Verify FTP connectivity and perform file transfers  
-
+- Understanding FTP concepts and their use.
+- Configuring both FTP server and client.
+-  Verifying connectivity and file exchange.
 
 ### Topology
 ![Lab 5.1 Topology](path/to/lab5.1-topology.png)
@@ -237,9 +236,9 @@ communication
 
 ### Objectives
 
-- Understand the operation of Dynamic Host Configuration Protocol (DHCP)
-- Configure DHCP services on Huawei devices
-- Verify DHCP lease assignments and test client connectivity  
+- Understanding the operation of Dynamic Host Configuration Protocol (DHCP)
+- Configuring DHCP services on Huawei devices
+- Verifying DHCP lease assignments and testing client connectivity  
 
 
 ### Topology
@@ -257,10 +256,9 @@ communication
 
 ### Objectives
 
-- Understand the principles of WLAN configuration
-- Configure WLAN parameters and settings on Huawei devices
-- Verify wireless connectivity and troubleshoot WLAN issues  
-
+- Learning key WLAN setup principles.
+- Configuring WLAN on Huawei Devices.
+- Testing and Troubleshooting Connectivity to ensure stable wireless access.
 
 ### Topology
 ![Lab 6 Topology](path/to/lab6-topology.png)
@@ -276,11 +274,10 @@ communication
 ## Lab 7: Creating an IPv6 Network
 
 ### Objectives
-
-- Understand IPv6 addressing and routing concepts
-- Configure IPv6 addresses on network interfaces
-- Verify IPv6 connectivity and troubleshoot IPv6-related issues  
-
+- Understanding IPv6 addressing and routing concepts.
+- Configuring IPv6 addresses on devices.
+- Testing connectivity and fixing issues.
+  
 ### Topology
 ![Lab 7 Topology](path/to/lab7-topology.png)
 
@@ -296,7 +293,7 @@ communication
 
 - Always save your configurations and topo to avoid losing progress.
 - Use the `display` command to verify configurations on Huawei devices.
-- You can always use question mark incase you forget the full command.
+- Use question mark incase you forget the full command.
 
 ---
 
