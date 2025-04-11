@@ -72,7 +72,7 @@ This layout reflects my ongoing journey with Huawei eNSP. Enjoy exploring and le
 -  screenshots of OSPF configuration and command outputs COMING SOON.
 
 ### Verification
-- Include screenshots showing OSPF neighbor relationships, routing tables, and traceroute outputs.
+-COMING SOON are screenshots showing OSPF neighbor relationships, routing tables, and traceroute outputs.
 
 ---
 
@@ -112,7 +112,7 @@ This layout reflects my ongoing journey with Huawei eNSP. Enjoy exploring and le
 -  COMING SOON.
 
 ### Verification
-- Include screenshots showing STP status and traceroute or ping results.
+- COMING SOON.
 
 ---
 ## Lab 3.3: Ethernet Link Aggregation
@@ -294,9 +294,9 @@ communication
 
 ## Tips
 
-- Always save your configurations to avoid losing progress.
+- Always save your configurations and topo to avoid losing progress.
 - Use the `display` command to verify configurations on Huawei devices.
-- Refer to the official Huawei eNSP documentation for troubleshooting.
+- You can always use question mark incase you forget the full command.
 
 ---
 
