@@ -49,10 +49,10 @@ This layout reflects my ongoing journey with Huawei eNSP. Enjoy exploring and le
 ![Lab 1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/1.%20Lab%201%20IPv4%20Addressing%20and%20Routing/TOPO.IPV4%20ADDRESSING%20AND%20ROUTING%20CONFIG.png)
 
 ### Configuration Screenshots
-- screenshots of configuration outputs and command tables COMING SOON
+-  COMING SOON
 
 ### Verification
-- screenshots of ping results, routing tables, and any relevant packet captures.COMING SOON.
+- COMING SOON.
 
 ---
 
@@ -90,10 +90,10 @@ This layout reflects my ongoing journey with Huawei eNSP. Enjoy exploring and le
 ![Lab 3.1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/3.1%20Lab%203.1%20Ethernet%20Basics%20and%20VLAN%20Configuration/topo.ethernet%20Basics%20and%20Vlan%20Config.png)
 
 ### Configuration Screenshots
-- screenshots of VLAN configurations and Ethernet interface settings COMING SOON
+- screenshots COMING SOON
 
 ### Verification
--  screenshots of VLAN membership, ping tests, and any Wireshark captures.
+-  screenshots Soon.
 
 ---
 
@@ -109,7 +109,7 @@ This layout reflects my ongoing journey with Huawei eNSP. Enjoy exploring and le
 ![Lab 3.2 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/3.2%20Lab%203.2%20Spanning%20Tree%20Configuration/topo.%20spanning%20tree%20configuration.png)
 
 ### Configuration Screenshots
--  screenshots of spanning tree configurations and port roles COMING SOON.
+-  COMING SOON.
 
 ### Verification
 - Include screenshots showing STP status and traceroute or ping results.
@@ -128,7 +128,7 @@ This layout reflects my ongoing journey with Huawei eNSP. Enjoy exploring and le
 ![Lab 3.3 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/3.3%20Lab%203.3%20Ethernet%20Link%20Aggregation/topo.ethernet%20link%20aggregation.png)
 
 ### Configuration Screenshots
--  screenshots of configuration and command outputs here.
+-  COMING SOON.
 ### Verification
 - screenshots of ping results etc. COMING SOON
 
@@ -147,7 +147,7 @@ communication
 
 
 ### Configuration Screenshots
-- Add screenshots of ACL configuration and command outputs here.
+- screenshots of ACL configuration and command outputs here.
 
 ### Verification
 -  screenshots COMING SOON
@@ -170,7 +170,7 @@ communication
 - COMING SOON screenshots of ACL configuration and command outputs here.
 
 ### Verification
-- COMING SOON screenshots showing ACL rule listings and ping or traceroute test results.
+- COMING SOON screenshots showing ACL rule listings and ping,traceroute test results.
 
 ---
 
@@ -186,10 +186,10 @@ communication
 ![Lab 4.2 Topology](path/to/lab4.2-topology.png)
 
 ### Configuration Screenshots
-- COMING SOON screenshots of AAA configuration details and user authentication setups.
+- COMING SOON 
 
 ### Verification
--  screenshots showing successful AAA authentication tests and relevant command outputs.COMING SOON
+-  screenshots COMING SOON
 
 ---
 
@@ -206,10 +206,10 @@ communication
 ![Lab 4.3 Topology](path/to/lab4.3-topology.png)
 
 ### Configuration Screenshots
-- Add screenshots of NAT configuration commands and NAT translation outputs.
+- COMING SOON.
 
 ### Verification
-- Include screenshots showing NAT translation tables, ping tests, and any packet captures.COMING SOON.
+- COMING SOON.
 
 ---
 
@@ -226,10 +226,10 @@ communication
 ![Lab 5.1 Topology](path/to/lab5.1-topology.png)
 
 ### Configuration Screenshots
--  screenshots of FTP configuration and command outputs here.COMING SOON
+-  COMING SOON
 
 ### Verification
-- Coming soon screenshots showing successful FTP connections and file transfer logs.
+- Coming soon screenshots .
 
 ---
 
@@ -249,7 +249,7 @@ communication
 - screenshots of DHCP server configuration and DHCP lease outputs. Soon.
 
 ### Verification
-- Include screenshots showing DHCP bindings, ping tests, and routing verification.coming soon
+- coming soon
 
 ---
 
@@ -269,7 +269,7 @@ communication
 - screenshots of WLAN configuration interfaces and settings,coming soon
 
 ### Verification
-- Include screenshots showing WLAN connectivity tests and wireless signal verification.COMING SOON
+- COMING SOON
 
 ---
 
@@ -285,10 +285,10 @@ communication
 ![Lab 7 Topology](path/to/lab7-topology.png)
 
 ### Configuration Screenshots
-- Add screenshots of IPv6 configuration commands and outputs here.Coming soon
+- Coming soon
 
 ### Verification
--  screenshots showing IPv6 neighbor discovery, ping results, and any Wireshark captures.Coming soon.
+- Coming soon.
 
 ---
 
