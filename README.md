@@ -300,8 +300,8 @@ communication
 ## Resources
 - [Infosyte: How to Install Huawei eNSP Network Simulator](https://infosyte.com/how-to-install-huawei-ensp-network-simulator/)
 - [Wireshark Documentation](https://www.wireshark.org/docs/) 
- - [Huawei Talent Learning Portal](https://e.huawei.com/en/talent/learning/#/home) - Explore official Huawei learning and training resources.
--  [Huawei eNSP Pro Full Guide](https://forum.huawei.com/enterprise/intl/en/thread/Huawei-eNSP-Pro-Full-Guide-Part1/856124796711411712?blogId=856124796711411712) - A detailed guide from the Huawei forum.
+- [Huawei Talent Learning Portal](https://e.huawei.com/en/talent/learning/#/home) - Explore official Huawei learning and training resources.
+- [Basic Networking Cheat Sheet (Community Maintained)](https://github.com/trimstray/the-book-of-secret-knowledge)
 
 ---
 
