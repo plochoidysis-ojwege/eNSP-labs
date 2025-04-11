@@ -164,7 +164,7 @@ communication
 
 
 ### Topology
-![Lab 4.1 Topology](path/to/lab4.1-topology.png)
+![Lab 4.1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/4.1%20Lab%204.1%20ACL%20Configuration/topo.png)
 
 ### Configuration Screenshots
 - COMING SOON screenshots of ACL configuration and command outputs here.
