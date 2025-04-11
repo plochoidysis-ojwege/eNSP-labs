@@ -197,7 +197,7 @@ communication
 
 ### Objectives
 
-- Understanding NAT config., its purpose and types.
+- Understanding NAT configuration, its purpose and types.
 - Setting up NAT on Huawei devices.
 - Validating and Troubleshooting NAT: Verifying translations and resolve issues.
 
