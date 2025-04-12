@@ -183,7 +183,7 @@ communication
 - Verify AAA user authentication and test network access  
 
 ### Topology
-![Lab 4.2 Topology](path/to/lab4.2-topology.png)
+![Lab 4.2 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/4.2%20Lab%204.2%20Local%20AAA%20Configuration/topo-AAA-configuration.png)
 
 ### Configuration Screenshots
 - COMING SOON 
