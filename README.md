@@ -203,7 +203,7 @@ communication
 
 
 ### Topology
-![Lab 4.3 Topology](path/to/lab4.3-topology.png)
+![Lab 4.3 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/4.3%20Lab%204.3%20%20NAT%20Configuration/topogy%20diagram.png)
 
 ### Configuration Screenshots
 - COMING SOON.
