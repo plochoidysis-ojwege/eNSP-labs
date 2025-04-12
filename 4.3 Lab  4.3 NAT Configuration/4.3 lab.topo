@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.3.00.100">
+    <devices>
+        <dev id="3A8737C0-B2EF-4c3c-901D-062CA53968E7" name="R3" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-6A-4E-04" com_port="2001" bootmode="0" cx="1259.000000" cy="961.000000" edit_left="1286" edit_top="1015">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="4D262284-5D69-4cf1-A0EB-2E50242E8719" name="R1" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-99-3F-65" com_port="2003" bootmode="0" cx="467.000000" cy="961.000000" edit_left="494" edit_top="1015">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="C07406B0-1BA2-410c-9494-14FA9C38874F" name="R2" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-5F-31-0E" com_port="2000" bootmode="0" cx="856.000000" cy="961.000000" edit_left="883" edit_top="1015">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="4D262284-5D69-4cf1-A0EB-2E50242E8719" destDeviceID="C07406B0-1BA2-410c-9494-14FA9C38874F">
+            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="1" srcBoundRect_X="537.183777" srcBoundRect_Y="988.000000" srcOffset_X="-11.000000" srcOffset_Y="7.000000" tarIndex="1" tarBoundRectIsMoved="1" tarBoundRect_X="839.816223" tarBoundRect_Y="988.000000" tarOffset_X="-39.000000" tarOffset_Y="12.000000" />
+        </line>
+        <line srcDeviceID="C07406B0-1BA2-410c-9494-14FA9C38874F" destDeviceID="3A8737C0-B2EF-4c3c-901D-062CA53968E7">
+            <interfacePair lineName="Copper" srcIndex="2" srcBoundRectIsMoved="1" srcBoundRect_X="926.183777" srcBoundRect_Y="988.000000" srcOffset_X="-16.000000" srcOffset_Y="12.000000" tarIndex="2" tarBoundRectIsMoved="1" tarBoundRect_X="1242.816284" tarBoundRect_Y="988.000000" tarOffset_X="-34.000000" tarOffset_Y="12.000000" />
+        </line>
+    </lines>
+    <shapes>
+        <shape type="2" filloption="0" color="16744448" upleftcorner="407,831" width="473" height="367" startpt="0,0" endpt="0,0" borderStyle="3" borderWidth="1" />
+        <shape type="2" filloption="0" color="4194432" upleftcorner="885,811" width="507" height="361" startpt="0,0" endpt="0,0" borderStyle="3" borderWidth="1" />
+    </shapes>
+    <txttips>
+        <txttip left="539" top="1044" right="588" bottom="1061" content="client" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="845" top="1040" right="902" bottom="1057" content="Gateway" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="1153" top="1050" right="1323" bottom="1067" content="Server on the internet" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="910" top="966" right="929" bottom="983" content=".1" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="561" top="948" right="580" bottom="965" content=".1" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="1190" top="966" right="1224" bottom="983" content=".254" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="637" top="960" right="747" bottom="977" content="192.168.1.0/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="804" top="966" right="838" bottom="983" content=".254" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="1002" top="963" right="1081" bottom="980" content="1.2.3.0/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="601" top="1101" right="711" bottom="1165" content="Configuring &#x0D;&#x0A;1.Dynamic NAT&#x0D;&#x0A;2.Easy Ip&#x0D;&#x0A;3.NAT server" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="541" top="902" right="651" bottom="919" content="Private Netork" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="1069" top="887" right="1179" bottom="904" content="Public Network" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+    </txttips>
+</topo>

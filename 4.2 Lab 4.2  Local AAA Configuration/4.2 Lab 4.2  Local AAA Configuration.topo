@@ -8,7 +8,7 @@
                 <interface sztype="Serial" interfacename="Serial" count="4" />
             </slot>
         </dev>
-        <dev id="F216D156-DDF3-4996-8396-1528BCC85C36" name="R2" poe="0" model="Router" settings="" system_mac="54-89-98-72-56-6C" com_port="2001" bootmode="0" cx="858.000000" cy="891.000000" edit_left="885" edit_top="945">
+        <dev id="F216D156-DDF3-4996-8396-1528BCC85C36" name="R2" poe="0" model="Router" settings="" system_mac="54-89-98-72-56-6C" com_port="2001" bootmode="0" cx="859.000000" cy="891.000000" edit_left="886" edit_top="945">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="Ethernet" count="2" />
                 <interface sztype="Ethernet" interfacename="GE" count="4" />
@@ -18,7 +18,7 @@
     </devices>
     <lines>
         <line srcDeviceID="61D07569-92C5-41fe-818A-0A490872247F" destDeviceID="F216D156-DDF3-4996-8396-1528BCC85C36">
-            <interfacePair lineName="Copper" srcIndex="5" srcBoundRectIsMoved="1" srcBoundRect_X="489.183777" srcBoundRect_Y="918.000000" srcOffset_X="0.000000" srcOffset_Y="12.000000" tarIndex="5" tarBoundRectIsMoved="1" tarBoundRect_X="841.816223" tarBoundRect_Y="918.000000" tarOffset_X="-26.000000" tarOffset_Y="8.000000" />
+            <interfacePair lineName="Copper" srcIndex="5" srcBoundRectIsMoved="1" srcBoundRect_X="489.183777" srcBoundRect_Y="918.000000" srcOffset_X="0.000000" srcOffset_Y="12.000000" tarIndex="5" tarBoundRectIsMoved="1" tarBoundRect_X="842.816223" tarBoundRect_Y="918.000000" tarOffset_X="-26.000000" tarOffset_Y="8.000000" />
         </line>
     </lines>
     <shapes />
