@@ -47,6 +47,7 @@ This layout reflects my ongoing journey with Huawei eNSP. Enjoy exploring and le
 
 ### Topology
 ![Lab 1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/1.%20Lab%201%20IPv4%20Addressing%20and%20Routing/TOPO.IPV4%20ADDRESSING%20AND%20ROUTING%20CONFIG.png)
+**Key commands**
 
 ### Configuration Screenshots
 -  COMING SOON
@@ -68,6 +69,7 @@ This layout reflects my ongoing journey with Huawei eNSP. Enjoy exploring and le
   
 ### Topology
 ![Lab 2 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/2.%20Lab%202%20OSPF%20Routing/topo.ospf%20routing.png)
+**Key commands**
 
 ### Configuration Screenshots
 -  screenshots of OSPF configuration and command outputs COMING SOON.
@@ -89,6 +91,7 @@ This layout reflects my ongoing journey with Huawei eNSP. Enjoy exploring and le
 
 ### Topology
 ![Lab 3.1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/3.1%20Lab%203.1%20Ethernet%20Basics%20and%20VLAN%20Configuration/topo.ethernet%20Basics%20and%20Vlan%20Config.png)
+**Key commands**
 
 ### Configuration Screenshots
 - screenshots COMING SOON
@@ -107,6 +110,7 @@ This layout reflects my ongoing journey with Huawei eNSP. Enjoy exploring and le
 - Verifying STP operation by identifying root bridges and port roles, and troubleshooting any anomalies in the S.T.P.
 ### Topology
 ![Lab 3.2 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/3.2%20Lab%203.2%20Spanning%20Tree%20Configuration/topo.%20spanning%20tree%20configuration.png)
+**Key commands**
 
 ### Configuration Screenshots
 -  COMING SOON.
@@ -126,6 +130,7 @@ This layout reflects my ongoing journey with Huawei eNSP. Enjoy exploring and le
   
   ### Topology
 ![Lab 3.3 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/3.3%20Lab%203.3%20Ethernet%20Link%20Aggregation/topo.ethernet%20link%20aggregation.png)
+**Key commands**
 
 ### Configuration Screenshots
 -  COMING SOON.
@@ -144,6 +149,7 @@ communication
 
 ### Topology
 ![Lab 4.0 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/4.0%20Lab%204%20Inter-VLAN%20Communication/topo.Inter-VLAN-Communication.png)
+**Key commands**
 
 
 ### Configuration Screenshots
@@ -165,7 +171,7 @@ communication
 
 ### Topology
 ![Lab 4.1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/4.1%20Lab%204.1%20ACL%20Configuration/topo.png)
-
+**Key Commands**
 ### Configuration Screenshots
 - COMING SOON screenshots of ACL configuration and command outputs here.
 
@@ -184,6 +190,7 @@ communication
 
 ### Topology
 ![Lab 4.2 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/4.2%20Lab%204.2%20Local%20AAA%20Configuration/topo-AAA-configuration.png)
+**Key commands**
 
 ### Configuration Screenshots
 - COMING SOON 
@@ -204,6 +211,7 @@ communication
 
 ### Topology
 ![Lab 4.3 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/4.3%20Lab%204.3%20%20NAT%20Configuration/topogy%20diagram.png)
+**Key commands**
 
 ### Configuration Screenshots
 - COMING SOON.
@@ -223,6 +231,7 @@ communication
 
 ### Topology
 ![Lab 5.1 Topology](path/to/lab5.1-topology.png)
+**Key commands**
 
 ### Configuration Screenshots
 -  COMING SOON
@@ -243,6 +252,7 @@ communication
 
 ### Topology
 ![Lab 5.2 Topology](path/to/lab5.2-topology.png)
+**Key commands**
 
 ### Configuration Screenshots
 - screenshots of DHCP server configuration and DHCP lease outputs. Soon.
@@ -262,6 +272,7 @@ communication
 
 ### Topology
 ![Lab 6 Topology](path/to/lab6-topology.png)
+**Key commands**
 
 ### Configuration Screenshots
 - screenshots of WLAN configuration interfaces and settings,coming soon
@@ -280,6 +291,7 @@ communication
   
 ### Topology
 ![Lab 7 Topology](path/to/lab7-topology.png)
+**Key commands**
 
 ### Configuration Screenshots
 - Coming soon
