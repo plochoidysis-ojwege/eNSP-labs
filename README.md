@@ -255,7 +255,38 @@ communication
 
 ### Topology
 ![Lab 4.0 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/4.0%20Lab%204%20Inter-VLAN%20Communication/topo.Inter-VLAN-Communication.png)
+
+
 **Key commands**
+<details>
+  <summary><strong>Lab 4.0: Inter-VLAN Communication (Section 3.4)</strong></summary>
+
+### Method 1: Router-on-a-Stick (Dot1q Subinterfaces)
+
+| **Device**    | **Command**                                                                                | **Description**                                                                                         |
+|---------------|--------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| **S1**        | `interface GigabitEthernet0/0/1`                                                             | Enters the interface view connected to the router.                                                    |
+| **S1**        | `port link-type trunk`                                                                      | Sets the port connected to the router as a trunk.                                                     |
+| **S1**        | `port trunk allow-pass vlan 2 3`                                                             | Allows necessary VLANs on the trunk link to the router.                                               |
+| **R1**        | `interface GigabitEthernet0/0/1.<subinterface-number>`                                     | Creates a logical subinterface.                                                                       |
+| **R1**        | `dot1q termination vid <vlan-id>`                                                           | Associates the subinterface with a specific VLAN ID.                                                  |
+| **R1**        | `arp broadcast enable`                                                                      | Allows ARP broadcasts on the subinterface (may be default).                                           |
+| **R1**        | `ip address <gateway-ip> <mask-length>`                                                     | Assigns the gateway IP address for the VLAN to the subinterface.                                      |
+| **R2, R3**    | `ip route-static 0.0.0.0 0 <gateway-ip>`                                                    | Configures the default gateway on end devices.                                                        |
+
+### Method 2: Layer 3 Switch (VLANIF Interfaces)
+
+| **Device**    | **Command**                                                                                | **Description**                                                                                         |
+|---------------|--------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| **S1**        | `interface Vlanif <vlan-id>`                                                                 | Creates a Layer 3 VLAN interface.                                                                       |
+| **S1**        | `ip address <gateway-ip> <mask-length>`                                                     | Assigns the gateway IP address for the VLAN to the VLANIF interface.                                    |
+| **S1**        | `interface GigabitEthernet0/0/2`<br>`interface GigabitEthernet0/0/3`                             | Enters interface view for ports connected to end devices.                                             |
+| **S1**        | `port link-type access`                                                                      | Sets ports connected to end devices as access ports.                                                  |
+| **S1**        | `port default vlan <vlan-id>`                                                                 | Assigns access ports to their respective VLANs.                                                       |
+| **R2, R3**    | `ip route-static 0.0.0.0 0 <gateway-ip>`                                                    | Configures the default gateway on end devices.                                                        |
+
+</details>
+
 
 
 ### Configuration Screenshots
@@ -277,7 +308,29 @@ communication
 
 ### Topology
 ![Lab 4.1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/4.1%20Lab%204.1%20ACL%20Configuration/topo.png)
+
+
 **Key Commands**
+<details>
+  <summary><strong>Lab 4.1: ACL Configuration</strong></summary>
+
+| **Device**         | **Command**                                                                                                     | **Description**                                                                                                 |
+|--------------------|-----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| **R1, R2, R3**     | *OSPF Configuration (Refer to Lab 2.2 commands to ensure basic connectivity first)*                             |                                                                                                               |
+| **R3**             | `telnet server enable`                                                                                          | Enables the Telnet server service.                                                                              |
+| **R3**             | `user-interface vty 0 4`                                                                                         | Enters VTY line view.                                                                                           |
+| **R3**             | `authentication-mode password`                                                                                  | Sets VTY authentication to use a local password.                                                                |
+| **R3**             | `set authentication password cipher <password>`                                                                | Sets the VTY login password (encrypted).                                                                        |
+| **R3**             | `user privilege level <level>`                                                                                   | Sets the privilege level for VTY users.                                                                         |
+| **R3/R2**         | `acl <acl-number>`                                                                                               | Creates an ACL (e.g., 3000).                                                                                      |
+| **R3/R2**         | `rule <id> {permit\|deny} tcp source <ip> <wc> destination <ip> <wc> [destination-port eq <port>]`               | Defines ACL rules to permit/deny specific TCP traffic (e.g., Telnet port 23).                                    |
+| **R3**             | `acl <acl-number> inbound`                                                                                       | Applies ACL to filter incoming VTY connections (Method 1).                                                      |
+| **R2**             | `interface GigabitEthernet0/0/3`                                                                                 | Enters interface view (Method 2).                                                                                 |
+| **R2**             | `traffic-filter inbound acl <acl-number>`                                                                        | Applies ACL to filter incoming traffic on the interface (Method 2).                                               |
+| **R3/R2**         | `display acl <acl-number>`                                                                                       | Displays the ACL configuration and match counts.                                                                |
+| **R1**             | `telnet -a <source-ip> <destination-ip>`                                                                         | Initiates Telnet specifying the source IP for testing ACL rules.                                                  |
+
+</details>
 ### Configuration Screenshots
 - COMING SOON screenshots of ACL configuration and command outputs here.
 
@@ -296,7 +349,32 @@ communication
 
 ### Topology
 ![Lab 4.2 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/4.2%20Lab%204.2%20Local%20AAA%20Configuration/topo-AAA-configuration.png)
+
+
 **Key commands**
+<details>
+  <summary><strong>Lab 4.2: Local AAA Configuration (Section 4.2)</strong></summary>
+
+| **Device**         | **Command**                                                                                                     | **Description**                                                                                                      |
+|--------------------|-----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| **R1, R2**         | *IP Address Configuration to ensure basic connectivity between devices*                                        |                                                                                                                      |
+| **R2**             | `aaa`                                                                                                           | Enters AAA configuration view.                                                                                       |
+| **R2**             | `authentication-scheme <name>`                                                                                  | Creates an authentication scheme.                                                                                    |
+| **R2**             | `authentication-mode local`                                                                                     | Sets the authentication method to local within the scheme.                                                           |
+| **R2**             | `authorization-scheme <name>`                                                                                   | Creates an authorization scheme.                                                                                     |
+| **R2**             | `authorization-mode local`                                                                                      | Sets the authorization method to local within the scheme.                                                            |
+| **R2**             | `domain <name>`                                                                                                 | Creates a user domain.                                                                                               |
+| **R2**             | `authentication-scheme <name>`                                                                                  | Applies an authentication scheme to the domain.                                                                      |
+| **R2**             | `authorization-scheme <name>`                                                                                   | Applies an authorization scheme to the domain.                                                                       |
+| **R2**             | `local-user <user>[@<domain>] password {cipher\|irreversible-cipher} <pass>`                                      | Creates a local user, optionally in a domain, with a password.                                                       |
+| **R2**             | `local-user <user>[@<domain>] service-type telnet`                                                               | Allows the user to access via Telnet.                                                                                |
+| **R2**             | `local-user <user>[@<domain>] privilege level <level>`                                                           | Sets the user's command privilege level.                                                                             |
+| **R2**             | `telnet server enable`                                                                                          | Enables the Telnet server.                                                                                           |
+| **R2**             | `user-interface vty 0 4`                                                                                         | Enters VTY line view.                                                                                                |
+| **R2**             | `authentication-mode aaa`                                                                                        | Configures VTY lines to use AAA for authentication.                                                                  |
+| **R1**             | `telnet <R2-ip-address>`                                                                                         | Initiates a Telnet connection (prompts for username@domain and password).                                             |
+| **R2**             | `display users`                                                                                                 | Displays currently logged-in users.                                                                                |
+
 
 ### Configuration Screenshots
 - COMING SOON 
@@ -317,7 +395,27 @@ communication
 
 ### Topology
 ![Lab 4.3 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/4.3%20Lab%204.3%20%20NAT%20Configuration/topogy%20diagram.png)
+
 **Key commands**
+
+<details>
+  <summary><strong>Lab 4.3: NAT Configuration </strong></summary>
+
+| **Device**         | **Command**                                                                                                     | **Description**                                                                                                  |
+|--------------------|-----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| **R1, R2, R3**     | *IP Address & Routing Configuration to ensure basic connectivity and necessary static/default routes*           |                                                                                                                  |
+| **R1, R3**         | *Telnet Server/User Configuration for testing (Refer to Lab 4.1/4.2)*                                             |                                                                                                                  |
+| **R2**             | `nat address-group <index> <start-ip> <end-ip>`                                                                    | Defines a pool of public IP addresses for dynamic NAT.                                                            |
+| **R2**             | `acl <number>`<br>`rule <id> permit source <private-net> <wildcard>`                                               | Creates an ACL to identify private source traffic needing translation.                                             |
+| **R2**             | `interface <public-interface>`                                                                                    | Enters the view of the public-facing interface.                                                                   |
+| **R2**             | `nat outbound <acl-num> address-group <index> [no-pat]`                                                             | Applies dynamic NAT using the address pool for traffic matching the ACL.                                             |
+| **R2**             | `nat outbound <acl-num>`                                                                                           | Applies Easy IP NAT (uses interface IP) for traffic matching the ACL.                                               |
+| **R2**             | `nat server protocol tcp global current-interface <pub-port> inside <priv-ip> <priv-port>`                           | Configures NAT Server (port forwarding) for a specific internal service (e.g., Telnet).                                 |
+| **R1**             | `ping <public-ip>`<br>`telnet <public-ip>`                                                                        | Tests outbound NAT connectivity from the private network.                                                          |
+| **R2**             | `display nat session all`                                                                                         | Displays the active NAT translation table.                                                                         |
+| **R3**             | `telnet <R2-public-ip> <public-port>`                                                                              | Tests inbound NAT Server access from the public network.                                                           |
+
+</details>
 
 ### Configuration Screenshots
 - COMING SOON.
@@ -337,8 +435,31 @@ communication
 
 ### Topology
 ![Lab 5.1 Topology](path/to/lab5.1-topology.png)
-**Key commands**
 
+
+**Key commands**
+<details>
+  <summary><strong>Lab 5.1: FTP Configuration (Section 5.1)</strong></summary>
+
+| **Device**         | **Command**                                                                                                      | **Description**                                                                                       |
+|--------------------|------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| **R1, R2**         | *IP Address Configuration to ensure basic IP connectivity*                                                       |                                                                                                       |
+| **R1, R2**         | `save <filename.cfg>`                                                                                            | Saves the current configuration to a file (for transfer).                                           |
+| **R1, R2**         | `dir`                                                                                                            | Lists files in the local storage (flash:/).                                                          |
+| **R2**             | `ftp server enable`                                                                                              | Enables the FTP server function.                                                                     |
+| **R2**             | `aaa`                                                                                                            | Enters AAA view.                                                                                       |
+| **R2**             | `local-user <user> password ...`                                                                                 | Creates a local user for FTP.                                                                          |
+| **R2**             | `local-user <user> service-type ftp`                                                                             | Allows the user FTP access.                                                                            |
+| **R2**             | `local-user <user> privilege level <level>`                                                                      | Sets user privilege (>=3 needed).                                                                      |
+| **R2**             | `local-user <user> ftp-directory <directory>`                                                                    | Sets the user's home directory (e.g., `flash:/`).                                                      |
+| **R1**             | `ftp <R2-ip-address>`                                                                                             | Connects to the FTP server from the client.                                                          |
+| **R1**             | `ascii` / `binary`                                                                                               | Sets FTP transfer mode (within the FTP session).                                                     |
+| **R1**             | `get <remote-file> [<local-file>]`                                                                               | Downloads a file from the server.                                                                      |
+| **R1**             | `put <local-file> [<remote-file>]`                                                                               | Uploads a file to the server.                                                                          |
+| **R1**             | `delete <remote-file>`                                                                                           | Deletes a file on the server.                                                                          |
+| **R1**             | `bye` / `quit`                                                                                                   | Disconnects from the FTP server.                                                                       |
+
+</details>
 ### Configuration Screenshots
 -  COMING SOON
 
@@ -358,8 +479,33 @@ communication
 
 ### Topology
 ![Lab 5.2 Topology](path/to/lab5.2-topology.png)
-**Key commands**
 
+
+**Key commands**
+<details>
+  <summary><strong>Lab 5.2: DHCP Configuration</strong></summary>
+
+| **Device**         | **Command**                                                                                                      | **Description**                                                                                              |
+|--------------------|------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| **R2**             | *IP Address Configuration on server interfaces (typically static)*                                               |                                                                                                              |
+| **R1, R2, R3**     | `dhcp enable`                                                                                                    | Enables DHCP service globally.                                                                               |
+| **R2**             | `interface <server-interface-for-R1>`                                                                             | Enters interface view (for interface pool).                                                                  |
+| **R2**             | `dhcp select interface`                                                                                          | Configures the interface to use an interface-specific pool.                                                  |
+| **R2**             | `dhcp server dns-list <dns-ip>`                                                                                  | Sets DNS server for the interface pool.                                                                      |
+| **R2**             | `ip pool <pool-name>`                                                                                            | Creates a global DHCP pool (e.g., for R3).                                                                     |
+| **R2**             | `network <network-addr> mask <mask-len>`                                                                           | Defines the address range for the global pool.                                                               |
+| **R2**             | `gateway-list <gateway-ip>`                                                                                      | Sets the default gateway for the global pool.                                                                |
+| **R2**             | `dns-list <dns-ip>`                                                                                              | Sets DNS server for the global pool.                                                                         |
+| **R2**             | `lease day <d> hour <h>`                                                                                         | Sets the lease duration for the global pool.                                                                 |
+| **R2**             | `static-bind ip-address <ip> mac-address <mac>`                                                                   | Creates a static IP reservation within the global pool.                                                      |
+| **R2**             | `interface <server-interface-for-R3>`                                                                             | Enters interface view (for the global pool assignment).                                                      |
+| **R2**             | `dhcp select global`                                                                                             | Configures the interface to assign addresses from the matching global pool.                                  |
+| **R1, R3**         | `interface <client-interface>`                                                                                   | Enters client interface view.                                                                                |
+| **R1, R3**         | `ip address dhcp-alloc`                                                                                          | Configures the client interface to obtain an IP address via DHCP.                                              |
+| **R1, R3**         | `display ip interface brief`<br>`display dns server`<br>`display ip routing-table`                           | Verifies IP, DNS, and route acquisition on the clients.                                                      |
+| **R2**             | `display ip pool name <pool-name>`<br>`display ip pool interface <interface-name>`                               | Displays DHCP pool status and usage on the server.                                                           |
+
+</details>
 ### Configuration Screenshots
 - screenshots of DHCP server configuration and DHCP lease outputs. Soon.
 
@@ -378,7 +524,41 @@ communication
 
 ### Topology
 ![Lab 6 Topology](path/to/lab6-topology.png)
+
 **Key commands**
+<details>
+  <summary><strong>Lab 6: Creating a WLAN</strong></summary>
+
+| **Device**         | **Command**                                                                                                      | **Description**                                                                                              |
+|--------------------|------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| **S1, AC, S3, S4** | *VLAN & Trunk Configuration (ensure VLANs 100, 101 are created and trunks are set as in Lab 3.1)*                 |                                                                                                              |
+| **S3, S4**         | `poe enable`                                                                                                     | Enables PoE on ports connected to APs (often default).                                                       |
+| **S1, AC**         | `interface Vlanif <vlan-id>`<br>`ip address ...`                                                                | Configures Layer 3 interfaces for STA gateway (S1) and AP management (AC).                                    |
+| **S1, AC**         | *DHCP Server Configuration (refer to Lab 5.2 for DHCP pool settings)*                                            |                                                                                                              |
+| **AC**             | `wlan`                                                                                                           | Enters WLAN view.                                                                                            |
+| **AC**             | `ap-group name <group-name>`                                                                                     | Creates an AP group.                                                                                         |
+| **AC**             | `regulatory-domain-profile name default & country-code cn`                                                       | (Optional) Configures the country code if the default CN is acceptable.                                        |
+| **AC**             | `regulatory-domain-profile default`                                                                              | Binds the regulatory profile to the AP group (within the AP-group view).                                       |
+| **AC**             | `capwap source interface Vlanif <mgmt-vlan-id>`                                                                   | Sets the source interface for AC-AP communication.                                                           |
+| **AC**             | `ap auth-mode mac-auth`                                                                                          | Sets the AP authentication mode (default is MAC).                                                            |
+| **AC**             | `ap-id <id> ap-mac <mac>`                                                                                          | Adds/authenticates an AP by its MAC address.                                                                 |
+| **AC**             | `ap-name <name>`                                                                                                 | Assigns a name to the AP (within the AP-id view).                                                              |
+| **AC**             | `ap-group <group-name>`                                                                                          | Assigns the AP to a group (within the AP-id view).                                                             |
+| **AC**             | `display ap all`                                                                                                 | Displays the status of configured APs.                                                                       |
+| **AC**             | `security-profile name <name>`                                                                                   | Creates a security profile.                                                                                    |
+| **AC**             | `security wpa-wpa2 psk pass-phrase <password> aes`                                                               | Configures WPA2-PSK security.                                                                                  |
+| **AC**             | `ssid-profile name <name>`                                                                                       | Creates an SSID profile.                                                                                       |
+| **AC**             | `ssid <ssid-name>`                                                                                               | Sets the WLAN network name (SSID).                                                                             |
+| **AC**             | `vap-profile name <name>`                                                                                        | Creates a Virtual AP (VAP) profile.                                                                            |
+| **AC**             | `forward-mode direct-forward`                                                                                    | Sets the data forwarding mode (typically default).                                                           |
+| **AC**             | `service-vlan vlan-id <vlan-id>`                                                                                  | Maps the VAP to a service VLAN.                                                                                |
+| **AC**             | `security-profile <name>`                                                                                        | Binds the security profile to the VAP profile.                                                                 |
+| **AC**             | `ssid-profile <name>`                                                                                            | Binds the SSID profile to the VAP profile.                                                                     |
+| **AC**             | `vap-profile <name> wlan <wlan-id> radio all`                                                                    | Binds the VAP profile to AP radios within the AP group, enabling the WLAN.                                      |
+| **STA**            | *Connect to the WLAN using the device’s Wi-Fi settings with the specified SSID and password.*                      |                                                                                                              |
+| **AC**             | `display station all`                                                                                            | Displays connected wireless clients (STAs).                                                                    |
+
+</details>
 
 ### Configuration Screenshots
 - screenshots of WLAN configuration interfaces and settings,coming soon
@@ -397,7 +577,36 @@ communication
   
 ### Topology
 ![Lab 7 Topology](path/to/lab7-topology.png)
+
+
 **Key commands**
+<details>
+  <summary><strong>Lab 7: Creating an IPv6 Network</strong></summary>
+
+| **Device**         | **Command**                                                                                                      | **Description**                                                                                                  |
+|--------------------|------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| **R1, R2, R3**     | `ipv6`                                                                                                           | Enables IPv6 forwarding globally.                                                                              |
+| **R1, R2, R3**     | `interface <interface>`<br>`ipv6 enable`                                                                          | Enters interface view and enables IPv6 on it.                                                                    |
+| **R1, R2, R3**     | `ipv6 address auto link-local`                                                                                   | Automatically generates a link-local (FE80::) address.                                                            |
+| **R1, R2, R3**     | `display ipv6 interface <interface>`                                                                             | Displays IPv6 interface status and addresses.                                                                    |
+| **R1**             | `ping ipv6 <link-local-addr> -i <interface>`                                                                       | Pings a link-local address, specifying the outbound interface.                                                   |
+| **R2**             | `ipv6 address <ipv6-addr>/<prefix-len>`                                                                            | Manually configures a static global IPv6 address.                                                               |
+| **R2, R3**         | `dhcp enable`                                                                                                    | Enables DHCP service globally (for DHCPv6).                                                                      |
+| **R2**             | `dhcpv6 pool <pool-name>`                                                                                        | Creates a DHCPv6 pool.                                                                                           |
+| **R2**             | `address prefix <prefix>/<len>`                                                                                  | Defines the address prefix for the DHCPv6 pool.                                                                  |
+| **R2**             | `dns-server <ipv6-dns-addr>`                                                                                       | Sets the DNS server address for the DHCPv6 pool.                                                                 |
+| **R2**             | `interface <server-interface> & dhcpv6 server <pool-name>`                                                         | Applies the DHCPv6 pool to the server interface.                                                                 |
+| **R3**             | `interface <client-interface> & ipv6 address auto dhcp`                                                            | Configures the client interface for stateful DHCPv6 address acquisition.                                           |
+| **R2**             | `interface <server-interface> & undo ipv6 nd ra halt`                                                              | Enables Router Advertisement (RA) sending on the server interface.                                               |
+| **R2**             | `ipv6 nd autoconfig managed-address-flag`                                                                          | Sets the M flag in RAs (indicating stateful address configuration).                                               |
+| **R2**             | `ipv6 nd autoconfig other-flag`                                                                                    | Sets the O flag in RAs (indicating stateful configuration for other parameters, e.g., DNS).                         |
+| **R3**             | `interface <client-interface> & ipv6 address auto global default`                                                  | Configures the client to learn the default gateway via RAs.                                                      |
+| **R1**             | `interface <client-interface> & ipv6 address auto global`                                                          | Configures the client interface for stateless address autoconfiguration (SLAAC).                                    |
+| **R1**             | `ipv6 route-static <dest-prefix>/<len> <next-hop-ipv6>`                                                            | Configures a static IPv6 route.                                                                                  |
+| **R1, R3**         | `display ipv6 routing-table`                                                                                       | Displays the IPv6 routing table.                                                                                  |
+| **R1**             | `display ipv6 neighbors`                                                                                           | Displays the IPv6 neighbor cache.                                                                                 |
+
+</details>
 
 ### Configuration Screenshots
 - Coming soon
