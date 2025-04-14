@@ -47,7 +47,36 @@ This layout reflects my ongoing journey with Huawei eNSP. Enjoy exploring and le
 
 ### Topology
 ![Lab 1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/1.%20Lab%201%20IPv4%20Addressing%20and%20Routing/TOPO.IPV4%20ADDRESSING%20AND%20ROUTING%20CONFIG.png)
+
 **Key commands**
+# Key Commands Reference
+
+Below are the key commands extracted from the HCIA-Datacom V1.0 Lab Guide, organized by lab and device. Click on each lab to view the commands.
+
+---
+
+<details>
+  <summary><strong>Lab 1: IPv4 Addressing and Routing (Section 2.1)</strong></summary>
+
+| **Device**         | **Command**                                                                                  | **Description**                                                                                                        |
+|--------------------|----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
+| **All**            | `display ip interface brief`                                                                 | Displays brief interface IP address and status information.                                                          |
+| **All**            | `display ip routing-table`                                                                   | Displays the IP routing table.                                                                                         |
+| **R1, R2, R3**     | `interface <interface-type><interface-number>`                                               | Enters the view of a specific physical interface.                                                                     |
+| **R1, R2, R3**     | `ip address <ip-address> <mask-length>`                                                      | Assigns an IPv4 address and mask length to an interface.                                                               |
+| **R1, R2, R3**     | `interface LoopBack<interface-number>`                                                       | Enters the view of a logical loopback interface.                                                                       |
+| **R1, R2, R3**     | `ip route-static <dest-addr> <mask> <next-hop> [preference <value>]`                         | Configures a static IPv4 route, optionally setting a preference for backup.                                            |
+| **R1, R2, R3**     | `ping -a <source-ip> <destination-ip>`                                                         | Pings a destination specifying the source IP address.                                                                  |
+| **R1, R2, R3**     | `tracert -a <source-ip> <destination-ip>`                                                       | Traces the route to a destination specifying the source IP address.                                                    |
+| **R1, R2**         | `shutdown`                                                                                   | Administratively disables an interface (used for testing backup route).                                                |
+| **R1, R2**         | `undo shutdown`                                                                              | Re-enables an administratively disabled interface.                                                                     |
+| **R1, R2, R3**     | `undo ip route-static <dest-addr> <mask> <next-hop> [preference <value>]`                     | Removes a configured static IPv4 route.                                                                                |
+| **R1**             | `ip route-static 0.0.0.0 0 <next-hop-address>`                                               | Configures a default static route.                                                                                     |
+
+</details>
+
+---
+
 
 ### Configuration Screenshots
 -  COMING SOON
