@@ -373,8 +373,9 @@ communication
 | **R2**             | `user-interface vty 0 4`                                                                                         | Enters VTY line view.                                                                                                |
 | **R2**             | `authentication-mode aaa`                                                                                        | Configures VTY lines to use AAA for authentication.                                                                  |
 | **R1**             | `telnet <R2-ip-address>`                                                                                         | Initiates a Telnet connection (prompts for username@domain and password).                                             |
-| **R2**             | `display users`                                                                                                 | Displays currently logged-in users.                                                                                |
+| **R2**             | `display users`                                                                                                 | Displays currently logged-in users.      |
 
+</details>
 
 ### Configuration Screenshots
 - COMING SOON 
