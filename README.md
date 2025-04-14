@@ -52,8 +52,6 @@ This layout reflects my ongoing journey with Huawei eNSP. Enjoy exploring and le
 **Key commands**
 Below are the key commands , organized by lab and device. Click on each lab to view the commands.
 
----
-
 <details>
   <summary><strong>Lab 1: IPv4 Addressing and Routing </strong></summary>
 
@@ -74,7 +72,6 @@ Below are the key commands , organized by lab and device. Click on each lab to v
 
 </details>
 
----
 
 
 ### Configuration Screenshots
@@ -100,7 +97,8 @@ Below are the key commands , organized by lab and device. Click on each lab to v
 
 
 **Key commands**
-details>
+
+<details>
   <summary><strong>Lab 2: OSPF Routing </strong></summary>
 
 | **Device**         | **Command**                                                                                               | **Description**                                                                                         |
