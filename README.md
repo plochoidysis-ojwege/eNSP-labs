@@ -48,15 +48,14 @@ This layout reflects my ongoing journey with Huawei eNSP. Enjoy exploring and le
 ### Topology
 ![Lab 1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/1.%20Lab%201%20IPv4%20Addressing%20and%20Routing/TOPO.IPV4%20ADDRESSING%20AND%20ROUTING%20CONFIG.png)
 
-**Key commands**
-# Key Commands Reference
 
-Below are the key commands extracted from the HCIA-Datacom V1.0 Lab Guide, organized by lab and device. Click on each lab to view the commands.
+**Key commands**
+Below are the key commands , organized by lab and device. Click on each lab to view the commands.
 
 ---
 
 <details>
-  <summary><strong>Lab 1: IPv4 Addressing and Routing (Section 2.1)</strong></summary>
+  <summary><strong>Lab 1: IPv4 Addressing and Routing </strong></summary>
 
 | **Device**         | **Command**                                                                                  | **Description**                                                                                                        |
 |--------------------|----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
@@ -98,7 +97,28 @@ Below are the key commands extracted from the HCIA-Datacom V1.0 Lab Guide, organ
   
 ### Topology
 ![Lab 2 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/2.%20Lab%202%20OSPF%20Routing/topo.ospf%20routing.png)
+
+
 **Key commands**
+details>
+  <summary><strong>Lab 2: OSPF Routing </strong></summary>
+
+| **Device**         | **Command**                                                                                               | **Description**                                                                                         |
+|--------------------|-----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| **R1, R2, R3**     | `ospf [process-id]`                                                                                       | Creates and enters the OSPF process view.                                                               |
+| **R1, R2, R3**     | `area <area-id>`                                                                                          | Creates an OSPF area and enters the area view.                                                          |
+| **R1, R2, R3**     | `network <network-address> <wildcard-mask>`                                                               | Enables OSPF on interfaces matching the network/wildcard within the area.                               |
+| **R1, R2, R3**     | `network <ip-address> 0.0.0.0`                                                                              | Enables OSPF specifically on the interface with the given IP within the area.                           |
+| **R1, R2, R3**     | `display ospf peer`<br>`display ospf peer brief`                                                           | Displays OSPF neighbor information (detailed/brief).                                                    |
+| **R1, R2, R3**     | `display ip routing-table protocol ospf`                                                                  | Displays only the OSPF routes in the IP routing table.                                                  |
+| **R1, R2**         | `ospf authentication-mode md5 <key-id> cipher <password>`                                                  | Configures MD5 authentication on an OSPF interface.                                                     |
+| **R3**             | `authentication-mode md5 <key-id> cipher <password>`                                                       | Configures MD5 authentication for an entire OSPF area (within area view).                                 |
+| **R1**             | `default-route-advertise [always]`                                                                         | Configures the router to advertise a default route into OSPF.                                           |
+| **R1**             | `ospf cost <value>`                                                                                        | Manually sets the OSPF cost for an interface to influence path selection.                               |
+
+</details>
+
+---
 
 ### Configuration Screenshots
 -  screenshots of OSPF configuration and command outputs COMING SOON.
@@ -120,7 +140,31 @@ Below are the key commands extracted from the HCIA-Datacom V1.0 Lab Guide, organ
 
 ### Topology
 ![Lab 3.1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/3.1%20Lab%203.1%20Ethernet%20Basics%20and%20VLAN%20Configuration/topo.ethernet%20Basics%20and%20Vlan%20Config.png)
+
 **Key commands**
+<details>
+  <summary><strong>Lab 3.1: Ethernet Basics and VLAN Configuration </strong></summary>
+
+| **Device**         | **Command**                                                                                                  | **Description**                                                                                               |
+|--------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| **S1, S2**         | `vlan <vlan-id>`<br>`vlan batch <vlan-list>`                                                                   | Creates one or more VLANs.                                                                                      |
+| **S1, S2**         | `interface <interface-type><interface-number>`                                                                | Enters the interface view.                                                                                     |
+| **S1, S2**         | `port link-type access`                                                                                        | Sets the interface link type to Access.                                                                        |
+| **S1, S2**         | `port default vlan <vlan-id>`                                                                                  | Assigns an access port to a specific VLAN (sets PVID).                                                         |
+| **S1, S2**         | `port link-type trunk`                                                                                          | Sets the interface link type to Trunk.                                                                         |
+| **S1, S2**         | `port trunk allow-pass vlan <vlan-list>`                                                                        | Specifies which VLANs are allowed on the trunk port.                                                           |
+| **S1, S2**         | `undo port trunk allow-pass vlan 1`                                                                             | Removes VLAN 1 from the allowed list on a trunk port (security best practice).                                   |
+| **S2**             | `mac-vlan mac-address <mac-address>`                                                                            | Associates a MAC address with the current VLAN (within VLAN view).                                               |
+| **S2**             | `port link-type hybrid`                                                                                         | Sets the interface link type to Hybrid.                                                                         |
+| **S2**             | `port hybrid untagged vlan <vlan-id>`                                                                            | Configures a hybrid port to send frames for the specified VLAN untagged.                                          |
+| **S2**             | `mac-vlan enable`                                                                                               | Enables MAC address-based VLAN assignment on the interface.                                                     |
+| **S1, S2**         | `display vlan`<br>`display vlan verbose`                                                                       | Displays VLAN information (summary/detailed).                                                                   |
+| **S2**             | `display mac-vlan vlan <vlan-id>`                                                                               | Displays MAC-to-VLAN mappings for a VLAN.                                                                         |
+| **S3, S4**         | `undo portswitch`                                                                                               | Changes an interface from Layer 2 to Layer 3 mode (if applicable).                                                |
+| **S3, S4**         | `interface Vlanif <vlan-id>`                                                                                     | Creates a Layer 3 VLAN interface (if applicable).                                                                 |
+| **R1, R3, S3, S4**  | `ip address <ip-address> <mask-length>`                                                                          | Configures IP addresses (on physical L3 or VLANIF interfaces).                                                    |
+
+</details>
 
 ### Configuration Screenshots
 - screenshots COMING SOON
@@ -139,7 +183,22 @@ Below are the key commands extracted from the HCIA-Datacom V1.0 Lab Guide, organ
 - Verifying STP operation by identifying root bridges and port roles, and troubleshooting any anomalies in the S.T.P.
 ### Topology
 ![Lab 3.2 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/3.2%20Lab%203.2%20Spanning%20Tree%20Configuration/topo.%20spanning%20tree%20configuration.png)
+
 **Key commands**
+<details>
+  <summary><strong>Lab 3.2: Spanning Tree Configuration</strong></summary>
+
+| **Device**         | **Command**                                                                                                  | **Description**                                                                                     |
+|--------------------|--------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| **S1, S2, S3, S4**  | `stp enable`                                                                                                  | Enables STP globally (often default).                                                               |
+| **S1, S2, S3, S4**  | `stp mode {stp \| rstp \| mstp}`                                                                               | Sets the Spanning Tree mode for the switch.                                                         |
+| **S1, S2, S3, S4**  | `display stp`<br>`display stp brief`                                                                          | Displays STP status (detailed/brief).                                                               |
+| **S1**             | `stp root primary`                                                                                             | Configures the switch as the primary root bridge (priority 0).                                      |
+| **S2**             | `stp root secondary`                                                                                           | Configures the switch as the secondary root bridge (priority 4096).                                 |
+| **S4**             | `stp cost <value>`                                                                                             | Manually sets the STP cost on a port to influence path selection.                                   |
+| **S3**             | `stp edged-port enable`                                                                                        | Configures a port connected to end devices as an edge port (for faster convergence).                |
+
+</details>
 
 ### Configuration Screenshots
 -  COMING SOON.
@@ -159,8 +218,28 @@ Below are the key commands extracted from the HCIA-Datacom V1.0 Lab Guide, organ
   
   ### Topology
 ![Lab 3.3 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/3.3%20Lab%203.3%20Ethernet%20Link%20Aggregation/topo.ethernet%20link%20aggregation.png)
-**Key commands**
 
+
+**Key commands**
+<details>
+  <summary><strong>Lab 3.3: Ethernet Link Aggregation </strong></summary>
+
+| **Device**         | **Command**                                                                                                  | **Description**                                                                                        |
+|--------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| **S1, S2**         | `interface Eth-Trunk <trunk-id>`                                                                               | Creates a logical Eth-Trunk interface.                                                                 |
+| **S1, S2**         | `mode manual load-balance`                                                                                     | Sets Eth-Trunk mode to manual (static).                                                                |
+| **S1, S2**         | `mode lacp`                                                                                                   | Sets Eth-Trunk mode to LACP.                                                                           |
+| **S1, S2**         | `eth-trunk <trunk-id>`                                                                                          | Adds the current physical interface to the specified Eth-Trunk.                                      |
+| **S1, S2**         | `trunkport <interface-type> <interface-number> [to <interface-number>]`                                         | Adds member ports to the current Eth-Trunk (entered within Eth-Trunk view).                            |
+| **S1, S2**         | `undo trunkport <interface-type> <interface-number> [to <interface-number>]`                                    | Removes member ports from the current Eth-Trunk.                                                     |
+| **S1, S2**         | `display eth-trunk <trunk-id>`                                                                                  | Displays the status of the Eth-Trunk.                                                                  |
+| **S1**             | `lacp priority <value>`                                                                                         | Sets the LACP system/port priority (lower is better for election/active selection).                    |
+| **S1**             | `max active-linknumber <value>`                                                                               | Sets the maximum number of active links in the LACP group.                                             |
+| **S1**             | `least active-linknumber <value>`                                                                             | Sets the minimum number of active links required for the LACP group to be UP.                           |
+| **S1**             | `lacp preempt enable`                                                                                          | Allows a higher-priority link to become active again after recovery.                                   |
+| **S1**             | `load-balance {dst-ip \| src-ip \| ...}`                                                                       | Sets the load balancing algorithm for the Eth-Trunk.                                                 |
+
+</details>
 ### Configuration Screenshots
 -  COMING SOON.
 ### Verification
