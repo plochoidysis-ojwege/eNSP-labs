@@ -435,7 +435,7 @@ communication
 -  Verifying connectivity and file exchange.
 
 ### Topology
-![Lab 5.1 Topology](path/to/lab5.1-topology.png)
+![Lab 5.1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/5.1%20Lab%205.1%20FTP%20Configuration/topo-FTP.png)
 
 
 **Key commands**
