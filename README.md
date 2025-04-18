@@ -479,8 +479,7 @@ communication
 
 
 ### Topology
-![Lab 5.2 Topology](path/to/lab5.2-topology.png)
-
+![Lab 5.2 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/5.2%20Lab%205.2%20DHCP%20Configuration/topo%20DHCP.png)
 
 **Key commands**
 <details>
