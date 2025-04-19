@@ -523,7 +523,7 @@ communication
 - Testing and Troubleshooting Connectivity to ensure stable wireless access.
 
 ### Topology
-![Lab 6 Topology](path/to/lab6-topology.png)
+![Lab 6 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/6.1%20Lab%206.1%20Creating%20a%20WLAN/topo.WLAN.png)
 
 **Key commands**
 <details>
