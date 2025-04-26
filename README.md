@@ -576,7 +576,7 @@ communication
 - Testing connectivity and fixing issues.
   
 ### Topology
-![Lab 7 Topology](path/to/lab7-topology.png)
+![Lab 7 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/7.%20Lab%207%20creating%20an%20IPv6%20Network/topo.creating%20an%20IPv6.png)
 
 
 **Key commands**
