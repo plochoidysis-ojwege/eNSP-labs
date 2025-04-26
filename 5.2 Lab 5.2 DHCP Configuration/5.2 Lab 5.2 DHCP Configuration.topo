@@ -8,7 +8,7 @@
                 <interface sztype="Serial" interfacename="Serial" count="4" />
             </slot>
         </dev>
-        <dev id="6848F226-9D94-41c6-AF0B-61D88ECEE0BC" name="R2" poe="0" model="Router" settings="" system_mac="54-89-98-AC-22-03" com_port="2001" bootmode="0" cx="647.000000" cy="766.000000" edit_left="677" edit_top="747">
+        <dev id="6848F226-9D94-41c6-AF0B-61D88ECEE0BC" name="R2" poe="0" model="Router" settings="" system_mac="54-89-98-AC-22-03" com_port="2001" bootmode="0" cx="647.000000" cy="767.000000" edit_left="677" edit_top="748">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="Ethernet" count="2" />
                 <interface sztype="Ethernet" interfacename="GE" count="4" />
@@ -25,10 +25,10 @@
     </devices>
     <lines>
         <line srcDeviceID="6848F226-9D94-41c6-AF0B-61D88ECEE0BC" destDeviceID="6482CAF5-FAA7-4162-B2F9-ABA85562EC6E">
-            <interfacePair lineName="Copper" srcIndex="3" srcBoundRectIsMoved="1" srcBoundRect_X="702.180908" srcBoundRect_Y="825.721130" srcOffset_X="-36.000000" srcOffset_Y="20.000000" tarIndex="3" tarBoundRectIsMoved="1" tarBoundRect_X="825.819092" tarBoundRect_Y="969.278870" tarOffset_X="0.000000" tarOffset_Y="-13.000000" />
+            <interfacePair lineName="Copper" srcIndex="3" srcBoundRectIsMoved="1" srcBoundRect_X="702.258423" srcBoundRect_Y="826.654236" srcOffset_X="-36.000000" srcOffset_Y="20.000000" tarIndex="3" tarBoundRectIsMoved="1" tarBoundRect_X="825.741577" tarBoundRect_Y="969.345764" tarOffset_X="0.000000" tarOffset_Y="-13.000000" />
         </line>
         <line srcDeviceID="6F1A5C34-2C29-4962-B50F-937635AC34BE" destDeviceID="6848F226-9D94-41c6-AF0B-61D88ECEE0BC">
-            <interfacePair lineName="Copper" srcIndex="5" srcBoundRectIsMoved="0" srcBoundRect_X="498.240540" srcBoundRect_Y="972.172302" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="5" tarBoundRectIsMoved="1" tarBoundRect_X="643.759460" tarBoundRect_Y="823.827698" tarOffset_X="-40.000000" tarOffset_Y="13.000000" />
+            <interfacePair lineName="Copper" srcIndex="5" srcBoundRectIsMoved="0" srcBoundRect_X="498.313995" srcBoundRect_Y="972.244507" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="5" tarBoundRectIsMoved="1" tarBoundRect_X="643.685974" tarBoundRect_Y="824.755493" tarOffset_X="-40.000000" tarOffset_Y="13.000000" />
         </line>
     </lines>
     <shapes />
