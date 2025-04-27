@@ -46,7 +46,7 @@ This layout reflects my ongoing journey with Huawei eNSP. Enjoy exploring and le
 - Comparing various static routing scenarios to determine when and why each approach is appropriate. 
 
 ### Topology
-![Lab 1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/1.%20Lab%201%20IPv4%20Addressing%20and%20Routing/TOPO.IPV4%20ADDRESSING%20AND%20ROUTING%20CONFIG.png)
+![Lab 1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/1.%20Lab%201%20IPv4%20Addressing%20and%20Routing/TOPO.IPV4%20ADDRESSING%20AND%20ROUTING%20CONFIG.png)
 
 <audio controls>
   <source src="Audio/filename.mp3" type="audio/mpeg">
@@ -96,7 +96,7 @@ Below are the key commands , organized by lab and device. Click on each lab to v
 - Implementing and testing OSPF authentication mechanisms to safeguard routing exchanges from unauthorized access.
   
 ### Topology
-![Lab 2 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/2.%20Lab%202%20OSPF%20Routing/topo.ospf%20routing.png)
+![Lab 2 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/2.%20Lab%202%20OSPF%20Routing/topo.ospf%20routing.png)
 
 <audio controls>
   <source src="Audio/Lab1_Explanation.m4a" type="audio/m4a">
@@ -144,7 +144,7 @@ Below are the key commands , organized by lab and device. Click on each lab to v
 
 
 ### Topology
-![Lab 3.1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/3.1%20Lab%203.1%20Ethernet%20Basics%20and%20VLAN%20Configuration/topo.ethernet%20Basics%20and%20Vlan%20Config.png)
+![Lab 3.1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/3.1%20Lab%203.1%20Ethernet%20Basics%20and%20VLAN%20Configuration/topo.ethernet%20Basics%20and%20Vlan%20Config.png)
 
 <audio controls>
   <source src="Audio/Lab1_Explanation.m4a" type="audio/m4a">
@@ -192,7 +192,7 @@ Below are the key commands , organized by lab and device. Click on each lab to v
 - Configuring key STP parameters on network switches to optimize network performance.
 - Verifying STP operation by identifying root bridges and port roles, and troubleshooting any anomalies in the S.T.P.
 ### Topology
-![Lab 3.2 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/3.2%20Lab%203.2%20Spanning%20Tree%20Configuration/topo.%20spanning%20tree%20configuration.png)
+![Lab 3.2 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/3.2%20Lab%203.2%20Spanning%20Tree%20Configuration/topo.%20spanning%20tree%20configuration.png)
 
 <audio controls>
   <source src="Audio/Lab1_Explanation.m4a" type="audio/m4a">
@@ -232,8 +232,7 @@ Below are the key commands , organized by lab and device. Click on each lab to v
 - Exploring and applying additional static LACP features to enhance network performance and redundancy.
   
   ### Topology
-![Lab 3.3 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/3.3%20Lab%203.3%20Ethernet%20Link%20Aggregation/topo.ethernet%20link%20aggregation.png)
-
+![Lab 3.3 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/3.3%20Lab%203.3%20Ethernet%20Link%20Aggregation/topo.ethernet%20link%20aggregation.png)
 <audio controls>
   <source src="Audio/Lab1_Explanation.m4a" type="audio/m4a">
   Your browser does not support the audio element.
@@ -275,7 +274,7 @@ communication
 -Examining the process by which network traffic is routed between VLANs.
 
 ### Topology
-![Lab 4.0 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/4.0%20Lab%204%20Inter-VLAN%20Communication/topo.Inter-VLAN-Communication.png)
+![Lab 4.0 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.0%20Lab%204%20Inter-VLAN%20Communication/topo.Inter-VLAN-Communication.png)
 
 <audio controls>
   <source src="Audio/Lab1_Explanation.m4a" type="audio/m4a">
@@ -332,7 +331,7 @@ communication
 
 
 ### Topology
-![Lab 4.1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/4.1%20Lab%204.1%20ACL%20Configuration/topo.png)
+![Lab 4.1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.1%20Lab%204.1%20ACL%20Configuration/topo.png)
 
 
 <audio controls>
@@ -380,7 +379,7 @@ communication
 
 
 ### Topology
-![Lab 4.2 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/4.2%20Lab%204.2%20Local%20AAA%20Configuration/topo-AAA-configuration.png)
+![Lab 4.2 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.2%20Lab%204.2%20Local%20AAA%20Configuration/topo-AAA-configuration.png)
 
 <audio controls>
   <source src="Audio/Lab1_Explanation.m4a" type="audio/m4a">
@@ -431,7 +430,7 @@ communication
 
 
 ### Topology
-![Lab 4.3 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/4.3%20Lab%204.3%20%20NAT%20Configuration/topogy%20diagram.png)
+![Lab 4.3 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.3%20Lab%204.3%20%20NAT%20Configuration/topogy%20diagram.png)
 
 
 <audio controls>
@@ -478,7 +477,7 @@ communication
 -  Verifying connectivity and file exchange.
 
 ### Topology
-![Lab 5.1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/5.1%20Lab%205.1%20FTP%20Configuration/topo-FTP.png)
+![Lab 5.1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/5.1%20Lab%205.1%20FTP%20Configuration/topo-FTP.png)
 
 <audio controls>
   <source src="Audio/Lab1_Explanation.m4a" type="audio/m4a">
@@ -526,7 +525,7 @@ communication
 
 
 ### Topology
-![Lab 5.2 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/5.2%20Lab%205.2%20DHCP%20Configuration/topo%20DHCP.png)
+![Lab 5.2 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/5.2%20Lab%205.2%20DHCP%20Configuration/topo%20DHCP.png)
 
 
 <audio controls>
@@ -576,7 +575,7 @@ communication
 - Testing and Troubleshooting Connectivity to ensure stable wireless access.
 
 ### Topology
-![Lab 6 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/6.1%20Lab%206.1%20Creating%20a%20WLAN/topo.WLAN.png)
+![Lab 6.1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/6.1%20Lab%206.1%20Creating%20a%20WLAN/topo.WLAN.png)
 
 
 <audio controls>
@@ -635,7 +634,7 @@ communication
 - Testing connectivity and fixing issues.
   
 ### Topology
-![Lab 7 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images/7.%20Lab%207%20creating%20an%20IPv6%20Network/topo.creating%20an%20IPv6.png)
+![Lab 7 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/7.%20Lab%207%20creating%20an%20IPv6%20Network/topo.creating%20an%20IPv6.png)
 
 <audio controls>
   <source src="Audio/Lab1_Explanation.m4a" type="audio/m4a">
