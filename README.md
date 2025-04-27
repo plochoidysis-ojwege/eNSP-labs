@@ -48,10 +48,11 @@ This layout reflects my ongoing journey with Huawei eNSP. Enjoy exploring and le
 ### Topology
 ![Lab 1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/1.%20Lab%201%20IPv4%20Addressing%20and%20Routing/TOPO.IPV4%20ADDRESSING%20AND%20ROUTING%20CONFIG.png)
 
-<audio controls>
-  <source src="Audio/filename.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+
+https://github.com/user-attachments/assets/5ba1ad0f-815e-4afe-b690-3e864c33753b
+
+
+
 **Key commands**
 Below are the key commands , organized by lab and device. Click on each lab to view the commands.
 
