@@ -6,12 +6,6 @@
                 <interface sztype="Ethernet" interfacename="GE" count="8" />
             </slot>
         </dev>
-        <dev id="422E5608-580E-42d9-829D-C3B6AE614383" name="STA1" poe="0" model="STA" settings=" -simsta_ip 0.0.0.0  -simsta_mask 0.0.0.0  -simsta_gateway 0.0.0.0  -simsta_mac 54-89-98-5B-54-1C  -simsta_check 0 " system_mac="54-89-98-5B-54-1C" com_port="0" bootmode="0" cx="549.000000" cy="1141.000000" edit_left="576" edit_top="1195">
-            <slot number="slot17" isMainBoard="1" />
-        </dev>
-        <dev id="59E325BC-89FC-4630-ACF5-A83E5C32DC8D" name="STA2" poe="0" model="STA" settings=" -simsta_ip 0.0.0.0  -simsta_mask 0.0.0.0  -simsta_gateway 0.0.0.0  -simsta_mac 54-89-98-19-77-C2  -simsta_check 0 " system_mac="54-89-98-19-77-C2" com_port="0" bootmode="0" cx="1189.000000" cy="1140.000000" edit_left="1216" edit_top="1194">
-            <slot number="slot17" isMainBoard="1" />
-        </dev>
         <dev id="04930BDC-D3CC-4475-B0EB-686BB9F0CF64" name="AP1" poe="0" model="AP2050" settings=" -apMac 00-E0-FC-5B-60-30 -apSN 210235448310B333282F" system_mac="00-E0-FC-5B-60-30" com_port="2004" bootmode="0" cx="549.000000" cy="1044.000000" edit_left="576" edit_top="1098">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="GE" count="5" />
@@ -41,6 +35,12 @@
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="GE" count="24" />
             </slot>
+        </dev>
+        <dev id="422E5608-580E-42d9-829D-C3B6AE614383" name="STA1" poe="0" model="STA" settings=" -simsta_ip 0.0.0.0  -simsta_mask 0.0.0.0  -simsta_gateway 0.0.0.0  -simsta_mac 54-89-98-5B-54-1C  -simsta_check 0 " system_mac="54-89-98-5B-54-1C" com_port="0" bootmode="0" cx="549.000000" cy="1141.000000" edit_left="576" edit_top="1195">
+            <slot number="slot17" isMainBoard="1" />
+        </dev>
+        <dev id="59E325BC-89FC-4630-ACF5-A83E5C32DC8D" name="STA2" poe="0" model="STA" settings=" -simsta_ip 0.0.0.0  -simsta_mask 0.0.0.0  -simsta_gateway 0.0.0.0  -simsta_mac 54-89-98-19-77-C2  -simsta_check 0 " system_mac="54-89-98-19-77-C2" com_port="0" bootmode="0" cx="1189.000000" cy="1140.000000" edit_left="1216" edit_top="1194">
+            <slot number="slot17" isMainBoard="1" />
         </dev>
     </devices>
     <lines>
