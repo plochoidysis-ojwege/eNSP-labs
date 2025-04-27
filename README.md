@@ -103,7 +103,8 @@ Below are the key commands , organized by lab and device. Click on thelab to vie
 ![Lab 2 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/2.%20Lab%202%20OSPF%20Routing/topo.ospf%20routing.png)
 
 
-https://github.com/user-attachments/assets/bff5390a-c276-46c4-9f01-aa18d02da402
+
+https://github.com/user-attachments/assets/a667cb83-f308-481a-acd7-022bd2928a5d
 
 
 
@@ -152,8 +153,7 @@ https://github.com/user-attachments/assets/bff5390a-c276-46c4-9f01-aa18d02da402
 ![Lab 3.1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/3.1%20Lab%203.1%20Ethernet%20Basics%20and%20VLAN%20Configuration/topo.ethernet%20Basics%20and%20Vlan%20Config.png)
 
 
-
-https://github.com/user-attachments/assets/5466462e-10eb-4476-8f7c-4d94aeec8ed9
+https://github.com/user-attachments/assets/57710c4c-af9e-40e9-b939-b2db5f983a9b
 
 
 
@@ -202,7 +202,9 @@ https://github.com/user-attachments/assets/5466462e-10eb-4476-8f7c-4d94aeec8ed9
 
 
 
-https://github.com/user-attachments/assets/2abab7f7-6afa-492a-974e-ec882618948a
+
+
+https://github.com/user-attachments/assets/9ad5c53c-6a7c-49fb-b962-e939de13b52b
 
 
 
@@ -242,7 +244,9 @@ https://github.com/user-attachments/assets/2abab7f7-6afa-492a-974e-ec882618948a
 ![Lab 3.3 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/3.3%20Lab%203.3%20Ethernet%20Link%20Aggregation/topo.ethernet%20link%20aggregation.png)
 
 
-https://github.com/user-attachments/assets/7b9b51c1-155c-4200-b5db-48df799e8245
+
+
+https://github.com/user-attachments/assets/5c3fcbf0-c9f6-4752-971d-857e4df81892
 
 
 
@@ -286,7 +290,8 @@ communication
 
 
 
-https://github.com/user-attachments/assets/d8b6933c-f2b5-4f72-a5e1-a3d2fa3e393f
+https://github.com/user-attachments/assets/6fbc6dc9-d23a-4677-9c2a-d30b64819b8d
+
 
 
 
@@ -344,8 +349,8 @@ https://github.com/user-attachments/assets/d8b6933c-f2b5-4f72-a5e1-a3d2fa3e393f
 
 
 
+https://github.com/user-attachments/assets/2699bc1b-7464-4063-8206-03f44eafefef
 
-https://github.com/user-attachments/assets/9a0f63e3-fc0d-4d37-ae24-03567ae378dc
 
 
 
@@ -393,7 +398,8 @@ https://github.com/user-attachments/assets/9a0f63e3-fc0d-4d37-ae24-03567ae378dc
 
 
 
-https://github.com/user-attachments/assets/419d39d2-df3f-4ada-829f-467aab52f172
+https://github.com/user-attachments/assets/ba8b9bd7-2b6a-4ebd-b621-136de3082981
+
 
 
 
@@ -445,8 +451,8 @@ https://github.com/user-attachments/assets/419d39d2-df3f-4ada-829f-467aab52f172
 
 
 
+https://github.com/user-attachments/assets/1d8dd54d-381d-4247-99ee-eb90d009d56c
 
-https://github.com/user-attachments/assets/67e004f7-5030-47c2-bbad-359c62c37cac
 
 
 
@@ -492,7 +498,8 @@ https://github.com/user-attachments/assets/67e004f7-5030-47c2-bbad-359c62c37cac
 ![Lab 5.1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/5.1%20Lab%205.1%20FTP%20Configuration/topo-FTP.png)
 
 
-https://github.com/user-attachments/assets/85178ec4-4488-41c4-bea8-e5a53ef66cd0
+https://github.com/user-attachments/assets/27d4929c-997a-4c55-8b94-d54fa0d4e9b2
+
 
 
 
@@ -541,8 +548,8 @@ https://github.com/user-attachments/assets/85178ec4-4488-41c4-bea8-e5a53ef66cd0
 
 
 
+https://github.com/user-attachments/assets/f62d0241-4cec-4687-b023-bc386ceb0006
 
-https://github.com/user-attachments/assets/208e336e-fe1b-4f40-ad79-73df80a8f99d
 
 
 
@@ -592,8 +599,8 @@ https://github.com/user-attachments/assets/208e336e-fe1b-4f40-ad79-73df80a8f99d
 
 
 
+https://github.com/user-attachments/assets/8ded414f-89fd-4acc-81b0-9bda98ed4008
 
-https://github.com/user-attachments/assets/e3c8bcfb-b2ad-4606-8940-a8689766e294
 
 
 
