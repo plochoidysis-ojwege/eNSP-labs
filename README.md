@@ -27,10 +27,13 @@ This layout reflects my ongoing journey with Huawei eNSP. Enjoy exploring and le
 - **Table of Contents**: Click a lab in the list above to jump right to that section.
 - **Objectives**: Each lab begins with brief objectives.
 - **Topology Diagrams**: Get a visual overview of the network setup for each exercise.
+- **Generated Audio overviews** Just below the topology diagrams of each lab,click on the MP4 audio overview for each lab.
+- **Key Commands**: Just below the generated audio overview, click on each lab key commands,they are on collapsible sections
 - **Configuration Steps**: If you choose to,follow the commands and add screenshots that show how each lab is set up.
 - **Verification**: Confirm if the lab works, through ping , tracert and by confirming in the routing tables.
 - **Personal Notes**: I've added my own notes and observations as I progressed.
 - **Resources**: I have included links to documentation and guides in the Resources section at the end.
+  
 
 ---
 
@@ -54,7 +57,7 @@ https://github.com/user-attachments/assets/5ba1ad0f-815e-4afe-b690-3e864c33753b
 
 
 **Key commands**
-Below are the key commands , organized by lab and device. Click on each lab to view the commands.
+Below are the key commands , organized by lab and device. Click on thelab to view the commands.
 
 <details>
   <summary><strong>Lab 1: IPv4 Addressing and Routing </strong></summary>
@@ -99,10 +102,11 @@ Below are the key commands , organized by lab and device. Click on each lab to v
 ### Topology
 ![Lab 2 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/2.%20Lab%202%20OSPF%20Routing/topo.ospf%20routing.png)
 
-<audio controls>
-  <source src="Audio/Lab1_Explanation.m4a" type="audio/m4a">
-  Your browser does not support the audio element.
-</audio>
+
+https://github.com/user-attachments/assets/bff5390a-c276-46c4-9f01-aa18d02da402
+
+
+
 
 **Key commands**
 
@@ -147,10 +151,11 @@ Below are the key commands , organized by lab and device. Click on each lab to v
 ### Topology
 ![Lab 3.1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/3.1%20Lab%203.1%20Ethernet%20Basics%20and%20VLAN%20Configuration/topo.ethernet%20Basics%20and%20Vlan%20Config.png)
 
-<audio controls>
-  <source src="Audio/Lab1_Explanation.m4a" type="audio/m4a">
-  Your browser does not support the audio element.
-</audio>
+
+
+https://github.com/user-attachments/assets/5466462e-10eb-4476-8f7c-4d94aeec8ed9
+
+
 
 **Key commands**
 <details>
@@ -195,10 +200,11 @@ Below are the key commands , organized by lab and device. Click on each lab to v
 ### Topology
 ![Lab 3.2 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/3.2%20Lab%203.2%20Spanning%20Tree%20Configuration/topo.%20spanning%20tree%20configuration.png)
 
-<audio controls>
-  <source src="Audio/Lab1_Explanation.m4a" type="audio/m4a">
-  Your browser does not support the audio element.
-</audio>
+
+
+https://github.com/user-attachments/assets/2abab7f7-6afa-492a-974e-ec882618948a
+
+
 
 **Key commands**
 <details>
@@ -234,10 +240,11 @@ Below are the key commands , organized by lab and device. Click on each lab to v
   
   ### Topology
 ![Lab 3.3 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/3.3%20Lab%203.3%20Ethernet%20Link%20Aggregation/topo.ethernet%20link%20aggregation.png)
-<audio controls>
-  <source src="Audio/Lab1_Explanation.m4a" type="audio/m4a">
-  Your browser does not support the audio element.
-</audio>
+
+
+https://github.com/user-attachments/assets/7b9b51c1-155c-4200-b5db-48df799e8245
+
+
 
 **Key commands**
 <details>
@@ -277,10 +284,11 @@ communication
 ### Topology
 ![Lab 4.0 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.0%20Lab%204%20Inter-VLAN%20Communication/topo.Inter-VLAN-Communication.png)
 
-<audio controls>
-  <source src="Audio/Lab1_Explanation.m4a" type="audio/m4a">
-  Your browser does not support the audio element.
-</audio>
+
+
+https://github.com/user-attachments/assets/d8b6933c-f2b5-4f72-a5e1-a3d2fa3e393f
+
+
 
 **Key commands**
 <details>
@@ -335,10 +343,11 @@ communication
 ![Lab 4.1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.1%20Lab%204.1%20ACL%20Configuration/topo.png)
 
 
-<audio controls>
-  <source src="Audio/Lab1_Explanation.m4a" type="audio/m4a">
-  Your browser does not support the audio element.
-</audio>
+
+
+https://github.com/user-attachments/assets/9a0f63e3-fc0d-4d37-ae24-03567ae378dc
+
+
 
 
 **Key Commands**
@@ -382,10 +391,11 @@ communication
 ### Topology
 ![Lab 4.2 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.2%20Lab%204.2%20Local%20AAA%20Configuration/topo-AAA-configuration.png)
 
-<audio controls>
-  <source src="Audio/Lab1_Explanation.m4a" type="audio/m4a">
-  Your browser does not support the audio element.
-</audio>
+
+
+https://github.com/user-attachments/assets/419d39d2-df3f-4ada-829f-467aab52f172
+
+
 
 **Key commands**
 <details>
@@ -434,10 +444,11 @@ communication
 ![Lab 4.3 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.3%20Lab%204.3%20%20NAT%20Configuration/topogy%20diagram.png)
 
 
-<audio controls>
-  <source src="Audio/Lab1_Explanation.m4a" type="audio/m4a">
-  Your browser does not support the audio element.
-</audio>
+
+
+https://github.com/user-attachments/assets/67e004f7-5030-47c2-bbad-359c62c37cac
+
+
 
 
 **Key commands**
@@ -480,10 +491,10 @@ communication
 ### Topology
 ![Lab 5.1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/5.1%20Lab%205.1%20FTP%20Configuration/topo-FTP.png)
 
-<audio controls>
-  <source src="Audio/Lab1_Explanation.m4a" type="audio/m4a">
-  Your browser does not support the audio element.
-</audio>
+
+https://github.com/user-attachments/assets/85178ec4-4488-41c4-bea8-e5a53ef66cd0
+
+
 
 **Key commands**
 <details>
@@ -529,10 +540,11 @@ communication
 ![Lab 5.2 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/5.2%20Lab%205.2%20DHCP%20Configuration/topo%20DHCP.png)
 
 
-<audio controls>
-  <source src="Audio/Lab1_Explanation.m4a" type="audio/m4a">
-  Your browser does not support the audio element.
-</audio>
+
+
+https://github.com/user-attachments/assets/208e336e-fe1b-4f40-ad79-73df80a8f99d
+
+
 
 **Key commands**
 <details>
@@ -579,10 +591,11 @@ communication
 ![Lab 6.1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/6.1%20Lab%206.1%20Creating%20a%20WLAN/topo.WLAN.png)
 
 
-<audio controls>
-  <source src="Audio/Lab1_Explanation.m4a" type="audio/m4a">
-  Your browser does not support the audio element.
-</audio>
+
+
+https://github.com/user-attachments/assets/e3c8bcfb-b2ad-4606-8940-a8689766e294
+
+
 
 **Key commands**
 <details>
@@ -637,10 +650,11 @@ communication
 ### Topology
 ![Lab 7 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/7.%20Lab%207%20creating%20an%20IPv6%20Network/topo.creating%20an%20IPv6.png)
 
-<audio controls>
-  <source src="Audio/Lab1_Explanation.m4a" type="audio/m4a">
-  Your browser does not support the audio element.
-</audio>
+
+
+https://github.com/user-attachments/assets/0eaf73a4-b742-452c-b15b-32034b4bb381
+
+
 
 **Key commands**
 <details>
