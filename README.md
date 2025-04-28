@@ -37,7 +37,7 @@ This layout reflects my ongoing journey with Huawei eNSP. Enjoy exploring and le
 
 ---
 <audio controls>
-  <source src="audio/audio.mp4" type="audio/mp4">
+  <source src="https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/1.%20Lab%201%20IPv4%20Addressing%20and%20Routing/1.%20Intro%20Your%20First%20Steps%20in%20the%20VRP%20CLI__.mp4" type="audio/mp4">
   Your browser does not support the audio tag.
 </audio>
 ---
