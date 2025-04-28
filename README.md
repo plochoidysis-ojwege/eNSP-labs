@@ -36,6 +36,11 @@ This layout reflects my ongoing journey with Huawei eNSP. Enjoy exploring and le
   
 
 ---
+<audio controls>
+  <source src="audio/audio.mp4" type="audio/mp4">
+  Your browser does not support the audio tag.
+</audio>
+---
 
 ## Lab 1: IPv4 Addressing and Routing
 
