@@ -69,6 +69,8 @@ https://github.com/user-attachments/assets/36ceffa7-4059-4c88-a59e-a5474b8fd791
 
 
 **Key commands**
+
+
 Below are the key commands , organized by lab and device. Click on thelab to view the commands.
 
 <details>
@@ -143,7 +145,7 @@ https://github.com/user-attachments/assets/42ac10f7-c961-474f-80b1-2970678cc545
 
 </details>
 
----
+
 
 ### Configuration Screenshots
 -  screenshots of OSPF configuration and command outputs COMING SOON.
