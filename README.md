@@ -27,7 +27,7 @@ This layout reflects my ongoing journey with Huawei eNSP. Enjoy exploring and le
 - **Table of Contents**: Click a lab in the list above to jump right to that section.
 - **Objectives**: Each lab begins with brief objectives.
 - **Topology Diagrams**: Get a visual overview of the network setup for each exercise.
-- **Generated Audio overviews**: Just below the topology diagrams of each lab,click on the MP4 audio overview for each lab.(Incase an audio fails, just refresh)
+- **Generated Audio overviews**: Below the topology diagram of each lab,is an MP4 audio overview .Incase an audio fail to play, just sync.
 - **Key Commands**: Just below the generated audio overview, click on each lab key commands,they are on collapsible sections
 - **Configuration Steps**: If you choose to,follow the commands and add screenshots that show how each lab is set up.
 - **Verification**: Confirm if the lab works, through ping , tracert and by confirming in the routing tables.
