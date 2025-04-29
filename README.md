@@ -36,10 +36,13 @@ This layout reflects my ongoing journey with Huawei eNSP. Enjoy exploring and le
   
 
 ---
-<audio controls>
-  <source src="https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/1.%20Lab%201%20IPv4%20Addressing%20and%20Routing/1.%20Intro%20Your%20First%20Steps%20in%20the%20VRP%20CLI__.mp4" type="audio/mp4">
-  Your browser does not support the audio tag.
-</audio>
+
+
+https://github.com/user-attachments/assets/9c5b449d-a37e-4062-be6d-fa604b7c1d06
+
+
+
+
 ---
 
 ## Lab 1: IPv4 Addressing and Routing
@@ -57,7 +60,11 @@ This layout reflects my ongoing journey with Huawei eNSP. Enjoy exploring and le
 ![Lab 1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/1.%20Lab%201%20IPv4%20Addressing%20and%20Routing/TOPO.IPV4%20ADDRESSING%20AND%20ROUTING%20CONFIG.png)
 
 
-https://github.com/user-attachments/assets/5ba1ad0f-815e-4afe-b690-3e864c33753b
+
+
+https://github.com/user-attachments/assets/36ceffa7-4059-4c88-a59e-a5474b8fd791
+
+
 
 
 
@@ -109,8 +116,10 @@ Below are the key commands , organized by lab and device. Click on thelab to vie
 
 
 
-https://github.com/user-attachments/assets/a667cb83-f308-481a-acd7-022bd2928a5d
 
+
+
+https://github.com/user-attachments/assets/42ac10f7-c961-474f-80b1-2970678cc545
 
 
 
@@ -158,7 +167,8 @@ https://github.com/user-attachments/assets/a667cb83-f308-481a-acd7-022bd2928a5d
 ![Lab 3.1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/3.1%20Lab%203.1%20Ethernet%20Basics%20and%20VLAN%20Configuration/topo.ethernet%20Basics%20and%20Vlan%20Config.png)
 
 
-https://github.com/user-attachments/assets/57710c4c-af9e-40e9-b939-b2db5f983a9b
+
+https://github.com/user-attachments/assets/ef2bdf4b-fad4-48ab-9f40-c4a91d3d8e6c
 
 
 
@@ -208,8 +218,7 @@ https://github.com/user-attachments/assets/57710c4c-af9e-40e9-b939-b2db5f983a9b
 
 
 
-
-https://github.com/user-attachments/assets/9ad5c53c-6a7c-49fb-b962-e939de13b52b
+https://github.com/user-attachments/assets/3b47bd3c-90e0-4ff9-aadf-8a6b10dd4679
 
 
 
@@ -251,7 +260,8 @@ https://github.com/user-attachments/assets/9ad5c53c-6a7c-49fb-b962-e939de13b52b
 
 
 
-https://github.com/user-attachments/assets/5c3fcbf0-c9f6-4752-971d-857e4df81892
+https://github.com/user-attachments/assets/9f59783b-f3c4-4dea-bb44-0399cd09255c
+
 
 
 
@@ -295,8 +305,7 @@ communication
 
 
 
-https://github.com/user-attachments/assets/6fbc6dc9-d23a-4677-9c2a-d30b64819b8d
-
+https://github.com/user-attachments/assets/5ef476b8-753b-4c9a-a7f7-5da932bff0cd
 
 
 
@@ -354,8 +363,8 @@ https://github.com/user-attachments/assets/6fbc6dc9-d23a-4677-9c2a-d30b64819b8d
 
 
 
-https://github.com/user-attachments/assets/2699bc1b-7464-4063-8206-03f44eafefef
 
+https://github.com/user-attachments/assets/66754396-7c45-4263-9005-623f8856cd85
 
 
 
@@ -403,8 +412,7 @@ https://github.com/user-attachments/assets/2699bc1b-7464-4063-8206-03f44eafefef
 
 
 
-https://github.com/user-attachments/assets/ba8b9bd7-2b6a-4ebd-b621-136de3082981
-
+https://github.com/user-attachments/assets/47df12d2-3889-4478-b6e1-38151c1dd29c
 
 
 
@@ -456,9 +464,7 @@ https://github.com/user-attachments/assets/ba8b9bd7-2b6a-4ebd-b621-136de3082981
 
 
 
-https://github.com/user-attachments/assets/1d8dd54d-381d-4247-99ee-eb90d009d56c
-
-
+https://github.com/user-attachments/assets/17d213cc-0f9c-475e-8ddf-fc3e2fe45edf
 
 
 
@@ -503,8 +509,8 @@ https://github.com/user-attachments/assets/1d8dd54d-381d-4247-99ee-eb90d009d56c
 ![Lab 5.1 Topology](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/5.1%20Lab%205.1%20FTP%20Configuration/topo-FTP.png)
 
 
-https://github.com/user-attachments/assets/27d4929c-997a-4c55-8b94-d54fa0d4e9b2
 
+https://github.com/user-attachments/assets/9ad83413-da80-4603-87ad-1a4a29b6e910
 
 
 
@@ -553,8 +559,7 @@ https://github.com/user-attachments/assets/27d4929c-997a-4c55-8b94-d54fa0d4e9b2
 
 
 
-https://github.com/user-attachments/assets/f62d0241-4cec-4687-b023-bc386ceb0006
-
+https://github.com/user-attachments/assets/3ed0d22c-913e-4655-b407-48c86f796aa5
 
 
 
@@ -604,8 +609,7 @@ https://github.com/user-attachments/assets/f62d0241-4cec-4687-b023-bc386ceb0006
 
 
 
-https://github.com/user-attachments/assets/8ded414f-89fd-4acc-81b0-9bda98ed4008
-
+https://github.com/user-attachments/assets/11756ec5-3176-4cd5-8e0b-e0ae1a956751
 
 
 
@@ -664,7 +668,9 @@ https://github.com/user-attachments/assets/8ded414f-89fd-4acc-81b0-9bda98ed4008
 
 
 
-https://github.com/user-attachments/assets/0eaf73a4-b742-452c-b15b-32034b4bb381
+
+https://github.com/user-attachments/assets/5f9b1160-927d-4c11-ae5d-ef3fb48012a2
+
 
 
 
