@@ -307,7 +307,9 @@ communication
 
 
 
-https://github.com/user-attachments/assets/5ef476b8-753b-4c9a-a7f7-5da932bff0cd
+
+https://github.com/user-attachments/assets/9eb75b4b-6a27-45b7-9e32-530b126bc161
+
 
 
 
@@ -366,8 +368,9 @@ https://github.com/user-attachments/assets/5ef476b8-753b-4c9a-a7f7-5da932bff0cd
 
 
 
-https://github.com/user-attachments/assets/66754396-7c45-4263-9005-623f8856cd85
 
+
+https://github.com/user-attachments/assets/b059e532-4c7c-4f1b-8c18-85dfea7a3619
 
 
 
