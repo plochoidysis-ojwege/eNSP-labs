@@ -725,7 +725,7 @@ https://github.com/user-attachments/assets/1fb7509b-ea7e-44cb-833e-85e83a645461
 ---
 
 ## Resources
-- [Tr Karis youtube channel](https://www.youtube.com/@TeacherKaris)- Tr karis YouTube Channel is where to start from.His HCIA datacom videos are the best on YouTube.In fact , most of this work is derived from him.
+- [Tr Karis youtube channel](https://www.youtube.com/@TeacherKaris)- Tr karis YouTube Channel is where to start from.His HCIA datacom videos are the best on YouTube. 
 - [Wireshark Documentation](https://www.wireshark.org/docs/) 
 - [Huawei Talent Learning Portal](https://e.huawei.com/en/talent/learning/#/home) - Official Huawei learning and training resources.
 - [Basic Networking Cheat Sheet (Community Maintained)](https://github.com/trimstray/the-book-of-secret-knowledge)
