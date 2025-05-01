@@ -333,7 +333,7 @@ https://github.com/user-attachments/assets/9eb75b4b-6a27-45b7-9e32-530b126bc161
 
 **Key commands**
 <details>
-  <summary><strong>Lab 4.0: Inter-VLAN Communication (Section 3.4)</strong></summary>
+  <summary><strong>Lab 4.0: Inter-VLAN Communication</strong></summary>
 
 ### Method 1: Router-on-a-Stick (Dot1q Subinterfaces)
 
@@ -902,7 +902,7 @@ https://github.com/user-attachments/assets/1fb7509b-ea7e-44cb-833e-85e83a645461
 ---
 
 ## Resources
-- [Tr Karis youtube channel](https://www.youtube.com/@TeacherKaris)- Tr karis YouTube Channel is where to start from.His HCIA datacom videos are the best on YouTube. 
+- [Tr Karis youtube channel](https://www.youtube.com/@TeacherKaris)- Tr karis YouTube Channel is an amazing instructor.His HCIA datacom videos are amazing. 
 - [Wireshark Documentation](https://www.wireshark.org/docs/) 
 - [Huawei Talent Learning Portal](https://e.huawei.com/en/talent/learning/#/home) - Official Huawei learning and training resources.
 - [Basic Networking Cheat Sheet (Community Maintained)](https://github.com/trimstray/the-book-of-secret-knowledge)
