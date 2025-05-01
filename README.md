@@ -95,10 +95,7 @@ Below are the key commands , organized by lab and device. Click on thelab to vie
 
 
 
-### Configuration Screenshots
--  COMING SOON
-
-### Verification
+### Verification/ configuration screenshots
 - COMING SOON.
 
 ---
@@ -199,11 +196,10 @@ https://github.com/user-attachments/assets/ef2bdf4b-fad4-48ab-9f40-c4a91d3d8e6c
 
 </details>
 
-### Configuration Screenshots
-- screenshots COMING SOON
 
-### Verification
--  screenshots Soon.
+
+### Verification/configuration screenshots
+-  screenshots of OSPF neighbor relationships, routing tables, and traceroute outputs COMING SOON.
 
 ---
 
@@ -240,11 +236,33 @@ https://github.com/user-attachments/assets/3b47bd3c-90e0-4ff9-aadf-8a6b10dd4679
 
 </details>
 
-### Configuration Screenshots
--  COMING SOON.
 
-### Verification
-- COMING SOON.
+
+
+### Verification / configuration screenshots
+
+- <details>
+  <summary>Verification Screenshots</summary>
+  
+  ![3.2 STP data capture before any configurations](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/3.2%20Lab%203.2%20Spanning%20Tree%20Configuration/3.2%20Stp%20data%20capture%20before%20any%20configurations.jpeg)
+  
+  ![3.2 Data capture](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/3.2%20Lab%203.2%20Spanning%20Tree%20Configuration/3.2%20data%20capture%2C%20i%20dont%20know%20which%20one.jpeg)
+  
+  ![3.2 display stp brief S1](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/3.2%20Lab%203.2%20Spanning%20Tree%20Configuration/3.2%20disp%20stp%20brief%20S1.jpeg)
+  
+  ![3.2 display stp brief S2](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/3.2%20Lab%203.2%20Spanning%20Tree%20Configuration/3.2%20disp%20stp%20brief%20S2.jpeg)
+  
+  ![3.2 display stp brief S3](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/3.2%20Lab%203.2%20Spanning%20Tree%20Configuration/3.2%20disp%20stp%20brief%20S3.jpeg)
+  
+  ![3.2 display stp brief S4](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/3.2%20Lab%203.2%20Spanning%20Tree%20Configuration/3.2%20disp%20stp%20brief%20S4.jpeg)
+  
+  ![3.2 displaying stp for S1](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/3.2%20Lab%203.2%20Spanning%20Tree%20Configuration/3.2%20displaying%20stp%20for%20S1.jpeg)
+  
+  ![3.2 the bridge id of that particular bridge](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/3.2%20Lab%203.2%20Spanning%20Tree%20Configuration/3.2%20the%20bridge%20id%20of%20that%20particular%20bridge.jpeg)
+  
+</details>
+
+
 
 ---
 ## Lab 3.3: Ethernet Link Aggregation
@@ -287,9 +305,9 @@ https://github.com/user-attachments/assets/9f59783b-f3c4-4dea-bb44-0399cd09255c
 | **S1**             | `load-balance {dst-ip \| src-ip \| ...}`                                                                       | Sets the load balancing algorithm for the Eth-Trunk.                                                 |
 
 </details>
-### Configuration Screenshots
--  COMING SOON.
-### Verification
+
+
+### Verification/ configuration screenshots
 - screenshots of ping results etc. COMING SOON
 
 ---
@@ -345,12 +363,24 @@ https://github.com/user-attachments/assets/9eb75b4b-6a27-45b7-9e32-530b126bc161
 
 
 
-### Configuration Screenshots
-- screenshots of ACL configuration and command outputs here.
+### Verification/ configuration screenshots
 
-### Verification
--  screenshots COMING SOON
-
+- <details>
+  <summary>Verification Screenshots</summary>
+  
+  ![Before trunkport creation](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.0%20Lab%204%20Inter-VLAN%20Communication/b4-trunkport-must-be-created-first-before-allowing-pass-vlan-2and3%7BWASnotIncludedINtheMANUAL%7D.png)
+  
+  ![Connectivity between VLANs after configurations](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.0%20Lab%204%20Inter-VLAN%20Communication/connectivityBTNvlansAFTERconfigurations.png)
+  
+  ![Different VLANs R2 & R3 cannot communicate](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.0%20Lab%204%20Inter-VLAN%20Communication/different-vlans-R2-R3%20cannot-communicate.png)
+  
+  ![Interface VLANIF view](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.0%20Lab%204%20Inter-VLAN%20Communication/interface-vlanif.png)
+  
+  ![Ping results before configuring the switch](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.0%20Lab%204%20Inter-VLAN%20Communication/ping-results-before-configuring-the-switch_R3-cannot-reach-R2%20and-vice-varsa.png)
+  
+  ![Ping and tracert results after VLANIF](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.0%20Lab%204%20Inter-VLAN%20Communication/pingANDtracert-results-after-vlanif.png)
+  
+</details>
 
 ---
  ## Lab 4.1: ACL Configuration
@@ -398,9 +428,35 @@ https://github.com/user-attachments/assets/b059e532-4c7c-4f1b-8c18-85dfea7a3619
 ### Configuration Screenshots
 - COMING SOON screenshots of ACL configuration and command outputs here.
 
-### Verification
-- COMING SOON screenshots showing ACL rule listings and ping,traceroute test results.
+### Verification/ configuration screenshots
 
+### Configuration Screenshots
+- <details>
+  <summary>Configuration Screenshots</summary>
+  
+  ![ACL configured on R2](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.1%20Lab%204.1%20ACL%20Configuration/ACL-configured-on-R2.png)
+  
+  ![Filtering traffic on R2 GE0.0.3 of R3 and displaying ACL](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.1%20Lab%204.1%20ACL%20Configuration/Filtering-traffic-on-R2%20GE0.0.3%20of%20R3-and-displaying-ACL.png)
+  
+  ![R1](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.1%20Lab%204.1%20ACL%20Configuration/R1.png)
+  
+  ![R3 configured as server](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.1%20Lab%204.1%20ACL%20Configuration/R3-configured-as-server..png)
+  
+</details>
+
+### Verification/ configuration screenshots
+- <details>
+  <summary>Verification Screenshots</summary>
+  
+  ![Verification: Telnetting R3 = SUCCESSFUL on R1](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.1%20Lab%204.1%20ACL%20Configuration/VERIFICATION-telnetting-R3%3DSUCCESSFULL-ON-R1.png)
+  
+  ![Display ACL config after configuring](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.1%20Lab%204.1%20ACL%20Configuration/disp-ACL-config(after-configuring).png)
+  
+  ![Displaying ACL config](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.1%20Lab%204.1%20ACL%20Configuration/displaying-acl-config.png)
+  
+  ![Ping on R3 just after config](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.1%20Lab%204.1%20ACL%20Configuration/ping-on-R3-jus-after-config..png)
+  
+</details>
 ---
 
 ## Lab 4.2: Local AAA Configuration
@@ -447,11 +503,9 @@ https://github.com/user-attachments/assets/47df12d2-3889-4478-b6e1-38151c1dd29c
 
 </details>
 
-### Configuration Screenshots
-- COMING SOON 
 
-### Verification
--  screenshots COMING SOON
+### Verification/ configuration screenshots
+
 
 ---
 
@@ -494,12 +548,42 @@ https://github.com/user-attachments/assets/17d213cc-0f9c-475e-8ddf-fc3e2fe45edf
 
 </details>
 
-### Configuration Screenshots
-- COMING SOON.
 
-### Verification
-- COMING SOON.
+### Verification/ configuration screenshots
 
+### Verification/ configuration screenshots
+- <details>
+  <summary>Verification Screenshots</summary>
+  
+  ![Display interfaces on R3](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.3%20Lab%204.3%20%20NAT%20Configuration/4.3-disp-int-br-R3.png)
+  
+  ![Source IP ping at R2 int G.0.0.2](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.3%20Lab%204.3%20%20NAT%20Configuration/DATA-CAPTURED-WITH-THE-SOURCE-IP-PING-AT-R2-INT-G.0.0.2.png)
+  
+  ![Easy IP Configuration](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.3%20Lab%204.3%20%20NAT%20Configuration/EASY-IP-CONFIGURATION.png)
+  
+  ![Just one source IP address Easy IP](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.3%20Lab%204.3%20%20NAT%20Configuration/JUST-ONE-SOURCE-IP-ADDRESS-EASY-IP.png)
+  
+  ![NAT Config on R2](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.3%20Lab%204.3%20%20NAT%20Configuration/NAT-CONFIG-ON-R2.png)
+  
+  ![NAT Server at Work](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.3%20Lab%204.3%20%20NAT%20Configuration/NAT-SERVER-AT-WORK.png)
+  
+  ![NAT Session Confirms Mapping](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.3%20Lab%204.3%20%20NAT%20Configuration/NAT-SESSION-CONFIRMS-MAPPING.png)
+  
+  ![Ping after NAT configuration successful](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.3%20Lab%204.3%20%20NAT%20Configuration/PING-AFTER-NAT-CONFIG%3DSUCCESSFULL.png)
+  
+  ![R3 cannot reach R1; telnet protects private IPs](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.3%20Lab%204.3%20%20NAT%20Configuration/R3-Cannot-reach-R1-telnetting-protects-the-private-ips.png)
+  
+  ![Ping R3 from R1 fails as NAT not yet configured on R2](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.3%20Lab%204.3%20%20NAT%20Configuration/ping-R3-FROM-R1-CANNOT-BE-SUCCESSFULL-BCS-NAT-IS-NOT-YET-CONFIG-ON-R2.png)
+  
+  ![Pinging R2 on R3](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.3%20Lab%204.3%20%20NAT%20Configuration/pinging-R2-ON-R3.png)
+  
+  ![Pinging gateway on R1](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.3%20Lab%204.3%20%20NAT%20Configuration/pinging-gateway-on-R1.png)
+  
+  ![Telnetting R1 from R3 after NAT server configured successfully](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.3%20Lab%204.3%20%20NAT%20Configuration/telnetting-R1-FROM-R3-after-configuring-NAT-server-now%3Dsuccessfull-from-the-public-network.png)
+  
+  ![Telnetting R3](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.3%20Lab%204.3%20%20NAT%20Configuration/telnetting-R3.png)
+  
+</details>
 ---
 
 ## Lab 5.1: FTP Configuration
@@ -542,12 +626,36 @@ https://github.com/user-attachments/assets/9ad83413-da80-4603-87ad-1a4a29b6e910
 | **R1**             | `bye` / `quit`                                                                                                   | Disconnects from the FTP server.                                                                       |
 
 </details>
-### Configuration Screenshots
--  COMING SOON
 
-### Verification
-- Coming soon screenshots .
 
+
+### Verification/ configuration screenshots
+
+### Verification/ configuration screenshots
+- <details>
+  <summary>Verification Screenshots</summary>
+  
+  ![After exiting ftp a copy of test 2 is seen because it was downloaded](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/5.1%20Lab%205.1%20FTP%20Configuration/After%20exiting%20ftp%20a%20copy%20of%20test%202%20is%20seen%20because%20it%20was%20downloaded.png)
+  
+  ![Also on R1 NO TEST 2 CFG](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/5.1%20Lab%205.1%20FTP%20Configuration/Also%20on%20R1%20NO%20TEST%202%20CFG.png)
+  
+  ![DOWNLOADING](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/5.1%20Lab%205.1%20FTP%20Configuration/DOWNLOADING.png)
+  
+  ![MORE CMD DISPLAYS MORE](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/5.1%20Lab%205.1%20FTP%20Configuration/MORE-CMD-DISPLAYS-MORE.png)
+  
+  ![NO R2 AFTER DELETION](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/5.1%20Lab%205.1%20FTP%20Configuration/NO%20R2%20AFTER%20DELETION.png)
+  
+  ![NO TEST 2 ANYMORE ON R2](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/5.1%20Lab%205.1%20FTP%20Configuration/NO%20TEST%202%20ANYMORE%20ON%20R2.png)
+  
+  ![STPING INTO R2](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/5.1%20Lab%205.1%20FTP%20Configuration/STPING%20INTO%20R2.png)
+  
+  ![Before saving = no-test one file](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/5.1%20Lab%205.1%20FTP%20Configuration/b4-saving%3Dno-test-one-file.png)
+  
+  ![Now after saving](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/5.1%20Lab%205.1%20FTP%20Configuration/now-after-saving.png)
+  
+  ![stp-ing into R2](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/5.1%20Lab%205.1%20FTP%20Configuration/stp-ing%20into-R2.png)
+  
+</details>
 ---
 
 ## Lab 5.2: DHCP Configuration
@@ -593,12 +701,14 @@ https://github.com/user-attachments/assets/3ed0d22c-913e-4655-b407-48c86f796aa5
 | **R2**             | `display ip pool name <pool-name>`<br>`display ip pool interface <interface-name>`                               | Displays DHCP pool status and usage on the server.                                                           |
 
 </details>
-### Configuration Screenshots
-- screenshots of DHCP server configuration and DHCP lease outputs. Soon.
 
-### Verification
-- coming soon
 
+### Verification/ configuration screenshots
+
+<details>
+![disp ip pool name- globalpool](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/5.2%20Lab%205.2%20DHCP%20Configuration/disp%20ip%20pool%20name-%20globalpool.png)
+  
+</details>
 ---
 
 ## Lab 6: Creating a WLAN
@@ -654,12 +764,48 @@ https://github.com/user-attachments/assets/175ae9d0-b4b2-4151-b619-39378161920f
 
 </details>
 
-### Configuration Screenshots
-- screenshots of WLAN configuration interfaces and settings,coming soon
 
-### Verification
-- COMING SOON
+### Verification/ configuration screenshots
 
+### Verification/ configuration screenshots
+- <details>
+  <summary>Verification Screenshots for Lab 6: Creating a WLAN</summary>
+  
+  ![AP1 system information](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/6.1%20Lab%206.1%20Creating%20a%20WLAN/AP%201%20system%20info.png)
+  
+  ![AP2 system information](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/6.1%20Lab%206.1%20Creating%20a%20WLAN/AP2%20sys%20info.png)
+  
+  ![AP configuration brought online](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/6.1%20Lab%206.1%20Creating%20a%20WLAN/Configuring%20the%20APs%20to%20bring%20them%20online-AP2%20%20shown-AP1%20done%20the%20same%20way.png)
+  
+  ![VLAN configuration verified on S4](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/6.1%20Lab%206.1%20Creating%20a%20WLAN/Confirming%20VLAN%20is%20configured%20correctly%20on%20S4.png)
+  
+  ![Station connecting to Wi‑Fi](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/6.1%20Lab%206.1%20Creating%20a%20WLAN/Connecting%20a%20station%20to%20Wi-Fi.png)
+  
+  ![DHCP configuration on S1](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/6.1%20Lab%206.1%20Creating%20a%20WLAN/DHCP%20configured%20on%20%20S1.png)
+  
+  ![DHCP setup verified on AC](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/6.1%20Lab%206.1%20Creating%20a%20WLAN/DHCP%20configured%20on%20AC.png)
+  
+  ![Data capture at S3 confirms AP1 success](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/6.1%20Lab%206.1%20Creating%20a%20WLAN/Data%20Capture%20at%20%5BS3%5D%20g%200%200%201%20is%20successfull%20hence%20AP1%20is%20successful.png)
+  
+  ![Data capture at S4 confirms AP2 success](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/6.1%20Lab%206.1%20Creating%20a%20WLAN/Data%20Capture%20at%20%5BS4%5D%20g%200%200%201%20is%20successfull%20hence%20AP2%20is%20successful.png)
+  
+  ![Guide to retrieve AP MAC addresses](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/6.1%20Lab%206.1%20Creating%20a%20WLAN/How%20to%20get%20the%20MAC%20address%20for%20the%20APs.png)
+  
+  ![VLAN successfully created on AC](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/6.1%20Lab%206.1%20Creating%20a%20WLAN/VLAN%20created%20successfully%20on%20AC.png)
+  
+  ![VLAN configuration on S1](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/6.1%20Lab%206.1%20Creating%20a%20WLAN/VLAN%20on%20S1.png)
+  
+  ![AP statuses displayed successfully](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/6.1%20Lab%206.1%20Creating%20a%20WLAN/diisplaying%20AP1%20and%20AP2%20%3Dsuccessful.png)
+  
+  ![Station 1 connected to Wi‑Fi verified](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/6.1%20Lab%206.1%20Creating%20a%20WLAN/verified%20successfully-station%201%20connected%20to%20Wi-Fi.png)
+  
+  ![Pinging S1 (aggregation switch) successful](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/6.1%20Lab%206.1%20Creating%20a%20WLAN/verified-pinging%20S1(the%20aggregation%20switch)%3Dsuccessfull.png)
+  
+  ![Station 2 Wi‑Fi connection verified](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/6.1%20Lab%206.1%20Creating%20a%20WLAN/verified-station%202%20successfully%20connected.png)
+  
+  ![All stations successfully connected](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/6.1%20Lab%206.1%20Creating%20a%20WLAN/verified-the%20Stations%20successfullyconnected.png-)
+  
+</details>
 ---
 
 ## Lab 7: Creating an IPv6 Network
@@ -708,12 +854,43 @@ https://github.com/user-attachments/assets/1fb7509b-ea7e-44cb-833e-85e83a645461
 
 </details>
 
-### Configuration Screenshots
-- Coming soon
 
-### Verification
-- Coming soon.
+### Verification/ configuration screenshots
 
+### Verification/ configuration screenshots
+
+- <details>
+  <summary>Verification Screenshots for Lab 7: Creating an IPv6 Network</summary>
+  
+  ![DHCPv6 server allocates gateway address to clients](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/7.%20Lab%207%20creating%20an%20IPv6%20Network/Configuring%20DHCPv6%20server%20to%20allocate%20the%20gateway%20address%20to%20clients..png)
+  
+  ![Static IPv6 addresses configured on R2](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/7.%20Lab%207%20creating%20an%20IPv6%20Network/Configuring%20static%20IPv6%20addresses%20on%20R2.%20.png)
+  
+  ![DHCPv6 client function configured](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/7.%20Lab%207%20creating%20an%20IPv6%20Network/Configuring%20the%20DHCPv6%20client%20function.%20.png)
+  
+  ![DHCPv6 server function configured](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/7.%20Lab%207%20creating%20an%20IPv6%20Network/Configuring%20the%20DHCPv6%20server%20function..png)
+  
+  ![IPv6 neighbor information displayed](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/7.%20Lab%207%20creating%20an%20IPv6%20Network/Displaying%20the%20IPv6%20neighbor%20information..png)
+  
+  ![Client address and DNS server information displayed](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/7.%20Lab%207%20creating%20an%20IPv6%20Network/Displaying%20the%20client%20address%20and%20DNS%20server%20information..png)
+  
+  ![Routes of R3 displayed](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/7.%20Lab%207%20creating%20an%20IPv6%20Network/Displaying%20the%20routes%20of%20R3.png)
+  
+  ![Enabling RA on R2 before R1 config](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/7.%20Lab%207%20creating%20an%20IPv6%20Network/Enabling%20RA%20on%20GigabitEthernet0.0.0%20of%20R2.%20just%20b4%20Configuring%20R1%20to%20obtain%20an%20IPv6%20address%20in%20stateless%20mode.png)
+  
+  ![First 3 steps on R1](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/7.%20Lab%207%20creating%20an%20IPv6%20Network/First%203%20steps%20on%20R1.png)
+  
+  ![First 3 steps on R2](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/7.%20Lab%207%20creating%20an%20IPv6%20Network/First%203%20steps%20on%20R2.png)
+  
+  ![First 3 steps on R3](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/7.%20Lab%207%20creating%20an%20IPv6%20Network/First%203%20steps%20on%20R3.png)
+  
+  ![IPv6 configuration on R1](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/7.%20Lab%207%20creating%20an%20IPv6%20Network/Ipv6%20on%20R1.png)
+  
+  ![Testing connectivity](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/7.%20Lab%207%20creating%20an%20IPv6%20Network/Testing%20connectivity..png)
+  
+  ![Pinging R2 from R3](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/7.%20Lab%207%20creating%20an%20IPv6%20Network/pinging%20R2%20from%20R3.png)
+  
+</details>
 ---
 
 ## Tips
