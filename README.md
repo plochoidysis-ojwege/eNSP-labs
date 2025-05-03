@@ -709,6 +709,7 @@ https://github.com/user-attachments/assets/3ed0d22c-913e-4655-b407-48c86f796aa5
 ![disp ip pool name- globalpool](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/5.2%20Lab%205.2%20DHCP%20Configuration/disp%20ip%20pool%20name-%20globalpool.png)
   
 </details>
+
 ---
 
 ## Lab 6: Creating a WLAN
