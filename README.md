@@ -891,6 +891,7 @@ https://github.com/user-attachments/assets/1fb7509b-ea7e-44cb-833e-85e83a645461
   ![Pinging R2 from R3](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/7.%20Lab%207%20creating%20an%20IPv6%20Network/pinging%20R2%20from%20R3.png)
   
 </details>
+
 ---
 
 ## Tips
