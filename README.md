@@ -904,7 +904,8 @@ https://github.com/user-attachments/assets/1fb7509b-ea7e-44cb-833e-85e83a645461
 ---
 
 ## Resources
-- [Tr Karis youtube channel](https://www.youtube.com/@TeacherKaris)- Tr karis YouTube Channel is an amazing instructor.His HCIA datacom videos are amazing. 
+- [How to install eNSP](
+- [Tr Karis youtube channel](https://www.youtube.com/@TeacherKaris) 
 - [Wireshark Documentation](https://www.wireshark.org/docs/) 
 - [Huawei Talent Learning Portal](https://e.huawei.com/en/talent/learning/#/home) - Official Huawei learning and training resources.
 - [Basic Networking Cheat Sheet (Community Maintained)](https://github.com/trimstray/the-book-of-secret-knowledge)
