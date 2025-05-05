@@ -807,6 +807,8 @@ https://github.com/user-attachments/assets/175ae9d0-b4b2-4151-b619-39378161920f
   ![All stations successfully connected](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/6.1%20Lab%206.1%20Creating%20a%20WLAN/verified-the%20Stations%20successfullyconnected.png-)
   
 </details>
+
+
 ---
 
 ## Lab 7: Creating an IPv6 Network
