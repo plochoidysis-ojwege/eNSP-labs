@@ -33,8 +33,7 @@ This layout reflects my ongoing journey with Huawei eNSP. Enjoy exploring and le
 - **Verification**: Confirm if the lab works, through ping , tracert and by confirming in the routing tables.
 - **Personal Notes**: I've added my own notes and observations as I progressed.
 - **Resources**: I have included links to documentation and guides in the Resources section at the end.
-Aso
-  
+
 
 ---
 
