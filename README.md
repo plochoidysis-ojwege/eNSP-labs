@@ -27,7 +27,7 @@ This layout reflects my ongoing journey with Huawei eNSP. Enjoy exploring and le
 - **Table of Contents**: Click a lab in the list above to jump right to that section.
 - **Objectives**: Each lab begins with brief objectives.
 - **Topology Diagrams**: Get a visual overview of the network setup for each exercise.
-- **Generated Audio overviews**: Below the topology diagram of each lab,is an MP4 audio overview .Incase an audio fail to play, just re-sync or refresh your browser(Well, this is a common issue ,especially after playing an audio, the next could fail-just bare with us ,looking for solution as fast as possible).
+- **Generated Audio overviews**: Below the topology diagram of each lab,is an MP4 audio overview .Incase an audio fail to play, just re-sync or refresh your browser(This is a common issue ,especially after playing an audio, the next could fail).
 - **Key Commands**: Just below the generated audio overview, click on each lab key commands,they are on collapsible sections
 - **Configuration Steps**: If you choose to,follow the commands and add screenshots that show how each lab is set up. I have added some verications in collasible sections, but it's a journey ,soon all sections will be updated.
 - **Verification**: Confirm if the lab works, through ping , tracert and by confirming in the routing tables.
@@ -907,10 +907,9 @@ https://github.com/user-attachments/assets/1fb7509b-ea7e-44cb-833e-85e83a645461
 ---
 
 ## Resources
-- [How to install eNSP](
-- [Tr Karis youtube channel](https://www.youtube.com/@TeacherKaris) 
+- [How to install eNSP](https://www.youtube.com/watch?v=gLEQx5JJYA0)
 - [Wireshark Documentation](https://www.wireshark.org/docs/) 
-- [Huawei Talent Learning Portal](https://e.huawei.com/en/talent/learning/#/home) - Official Huawei learning and training resources.
+- [Huawei Talent Learning Portal](https://e.huawei.com/en/talent/learning/#/home)
 - [Basic Networking Cheat Sheet (Community Maintained)](https://github.com/trimstray/the-book-of-secret-knowledge)
 
 ---
