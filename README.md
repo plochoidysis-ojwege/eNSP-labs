@@ -457,6 +457,8 @@ https://github.com/user-attachments/assets/b059e532-4c7c-4f1b-8c18-85dfea7a3619
   ![Ping on R3 just after config](https://github.com/plochoidysis-ojwege/eNSP-labs/blob/main/Images%20and%20audios%20of%20the%20labs/4.1%20Lab%204.1%20ACL%20Configuration/ping-on-R3-jus-after-config..png)
   
 </details>
+
+
 ---
 
 ## Lab 4.2: Local AAA Configuration
@@ -907,6 +909,7 @@ https://github.com/user-attachments/assets/1fb7509b-ea7e-44cb-833e-85e83a645461
 
 ## Resources
 - [How to install eNSP](https://www.youtube.com/watch?v=gLEQx5JJYA0)
+- [prerequisite](https://github.com/plochoidysis-ojwege/eNSP-labs/tree/main/Prerequisites/Real%20Notes)
 - [Wireshark Documentation](https://www.wireshark.org/docs/) 
 - [Huawei Talent Learning Portal](https://e.huawei.com/en/talent/learning/#/home)
 - [Basic Networking Cheat Sheet (Community Maintained)](https://github.com/trimstray/the-book-of-secret-knowledge)
