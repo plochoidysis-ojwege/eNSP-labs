@@ -1,3 +1,24 @@
+
+# Repository Moved! 🚧
+
+**This repository has been moved to a new location to continue development and updates.**
+
+All future content, fixes, and contributions for the eNSP Lab Exercises will be available at:
+
+### New Repository Location:
+[**plochoidysis-ojwege/eNSP-lab-exercises**](https://github.com/plochoidysis-ojwege/eNSP-lab-exercises)
+
+**Please update your bookmarks, clones, and any references you may have to this repository.**
+
+---
+
+
+This repository will no longer be updated.
+Thank you for your understanding!
+
+
+---
+
 # Huawei eNSP Lab Exercises
 
 This repository contains lab exercises for learning Huawei networking technologies using the eNSP network simulator.Each lab focuses on basic networking concepts and includes objectives, topology diagrams,configurations, and verifications. 
